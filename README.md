@@ -4,7 +4,30 @@
 # Monkeypox Metagenomics Analysis with ONT Reads
 This repo contains analysis workflow for Oxford Nanopore reads.
 
-
+dependencies:
+  - samtools
+  - bwa
+  - sickle
+  - fastqc
+  - python=3
+  - minimap2
+  - ragtag
+  - abricate
+  - spades
+  - minimap2
+  - mummer
+  - mash
+  - mafft
+  - prokka
+  - quast
+  - perl-padwalker
+  - perl-db-file
+  - porechop
+  - sickle-trim
+  - pip
+  - homopolish
+  - medaka
+  - gw
 
 # Download and install anaconda(version 3 recommended)
 
