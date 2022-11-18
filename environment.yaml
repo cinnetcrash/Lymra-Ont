@@ -33,9 +33,6 @@ dependencies:
   - bzip2
   - freebayes
   - htslib
-  - medaka
-  - busco
-  - kraken2
   - pip:
       - numpy
       - matplotlib
