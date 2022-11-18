@@ -4,7 +4,9 @@
 # Monkeypox Metagenomics Analysis with ONT Reads
 This repo contains analysis workflow for Oxford Nanopore reads.
 
-dependencies:
+You can use this program to generate monkeypox whole genome from your "*.fastq" files obtained as a result of metagenomic analysis.
+
+Dependencies:
   - samtools
   - bwa
   - sickle
