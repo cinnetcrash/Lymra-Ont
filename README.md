@@ -6,7 +6,7 @@ This repo contains analysis workflow for Oxford Nanopore reads.
 
 You can use this program to generate monkeypox whole genome from your "*.fastq" files obtained as a result of metagenomic analysis.
 
-# Download and install anaconda(version 3 recommended)
+# Download and install anaconda
 
 ### Add channels
 
@@ -29,7 +29,7 @@ git clone https://github.com/cinnetcrash/Lymra-Ont.git
 cd Lymra-Ont
 ```
 
-### Create conda environment.Packages are listed in the environment.yaml file. 
+### Create conda environment. All the packages are listed in the environment.yaml file. 
 
 ```
 conda env create -f environment.yaml
@@ -37,12 +37,12 @@ conda env create -f environment.yaml
 
 ### Activate the analysis environment
 ```
-source activate Lymra-Ont
+conda activate Lymra-Ont
 ```
 
 ### Add permission to all scripts
 ```
-chmod +x *.{py,sh,pl}
+chmod +x *.{py,sh}
 ```
 
 ### Install python packages using pip
@@ -50,6 +50,6 @@ chmod +x *.{py,sh,pl}
 pip install -r pip-requirements.txt
 ```
 
-### Citation
+### Use this citation to cite my efforts
 Gültekin Ünal, 2022.  Lymra Oxford Nanopore Monkeypox Anaylsis Tool https://github.com/cinnetcrash/Lymra-Ont
 
