@@ -31,7 +31,8 @@ dependencies:
   - openmp_mutex >=4.5
   - arrow-cpp >=0.15.1
   - biopython >=1.76
-  - blas >=2.17boost >=1.70.0,<1.70.1.0a0
+  - blas >=2.17
+  - boost >=1.70.0,<1.70.1.0a0
   - boost-cpp >=1.70.0
   - brotli >=1.0.9
   - brotlipy >=0.7.0
@@ -92,7 +93,8 @@ dependencies:
   - pysam >=0.15.3
   - pysocks >=1.7.1
   - pythonpython-dateutil >=2.8.1
-  - python-wget >=3.2pytz >=2020.1
+  - python-wget >=3.2
+  - pytz >=2020.1
   - re2 >=2019.08.01
   - readline >=8.1.2,<9.0a0
   - requests >=2.24.0
