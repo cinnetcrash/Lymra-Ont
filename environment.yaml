@@ -70,6 +70,7 @@ dependencies:
   - gotree
   - busco=5.4.2
   - kraken2
+  - bioconda::homopolish>=0.3.3
   - pip:
       - numpy
       - matplotlib
