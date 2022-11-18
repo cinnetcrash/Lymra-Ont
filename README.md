@@ -46,7 +46,7 @@ conda config --add channels defaults\
 
 ```
 git clone https://github.com/cinnetcrash/Lymra-Ont.git
-
+```
 
 ### Change directory to the dowloaded folder
 
