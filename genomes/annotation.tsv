@@ -1,0 +1,1419 @@
+Name	Origin	Comment	Variant_Type
+B.1.1.7	United Kingdom	Possess about %50 increased transmission <br>Severity increased based on hospitalization and case fatality rates<br>No impact on susceptibility to EUA monoclonal antibody treatments<br>BNT162b2 mRNA vaccine has efficacy between 85.9–92.3 (89.5) after second dose<br>Minimal effect on neutralization by convalescent and post-vaccination sera.<br>It is also reported that the Oxford–AstraZeneca COVID-19 vaccine had an efficacy of 42–89% against the B.1.1.7 variant, whereas it does 71–91% against non-B.1.1.7 variants.<br>A clinical study indicates that the Novavax vaccine is ~96% effective for symptoms against the original variant and~86% against B.1.1.7.	concern
+P.1	Japan/Brazil	K417T, E484K, and N501Y are the mutations present in the receptor binding domains.<br>Substantial decrease in susceptibility to the combination of bamlanivimab and etesevimab monoclonal antibody treatment<br>Other EUA monoclonal antibody treatments are available<br>Reduced neutralization by convalescent and post-vaccination sera<br>With Sinovac antibody levels reduced.<br>P.1 variant is capable of partially escaping vaccination with the Pfizer-BioNTech vaccine	concern
+B.1.351	South Africa	Transmissibility increased at about 50%<br>Remarkable decline in susceptibility to the combination of bamlanivimab and etesevimab monoclonal antibody treatment<br>Yet other EUA monoclonal antibody treatments are available<br>Reduced neutralization due to convalescent and post-vaccination sera<br>Effectiveness of BNT162b2 mRNA vaccine is between 70.5–78.9 (75.0)<br>K417N, E484K, N501Y substitutions are some of the mutations in the spike protein.<br>No evidence that reports whether it has impact on disease severity.<br>Lastly, Pfizer/BioNTech South African vaccine trial stated that the vaccine was 100% effective	concern
+B.1.427	United States-(California)	Transmissibility rose at about 20%<br>Modest decrease in susceptibility to the combination of bamlanivimab and etesevimab; yet, the clinical implications of this decrease are not reported.<br>Alternative monoclonal antibody treatments are available.<br>Reduced neutralization by convalescent and post-vaccination sera       	interest
+B.1.429	United States-(California)	20% increased transmissibility<br>Modest decrease in susceptibility to the combination of antibodies bamlanivimab and etesevimab; however, the clinical implications of this decrease are not known. <br>Alternative monoclonal antibody treatments are available.<br>Reduced neutralization by convalescent and post-vaccination sera	interest
+B.1.427/9	United States-(California)	Transmissibility rose at about 20%<br>Modest decrease in susceptibility to the combination of bamlanivimab and etesevimab; yet, the clinical implications of this decrease are not reported.<br>Alternative monoclonal antibody treatments are available.<br>Reduced neutralization by convalescent and post-vaccination sera       	interest
+B.1.1.207	Nigeria	First sequenced in August 2020 in Nigeria<br>Has a P681H mutation, common with B.1.1.7 <br>Transmissibility and virulence info is absent.	concern
+B.1.526	United States (New York) – November 2020	Reduced susceptibility to the combination of bamlanivimab and etesevimab monoclonal antibody treatment; however, the clinical implications of this are not known. <br>Alternative monoclonal antibody treatments are available.<br>Reduced neutralization by convalescent and post-vaccination sera	interest
+B.1.526.1	United States (New York) – October 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments.<br>Potential reduction in neutralization by convalescent and post-vaccination sera	interest
+B.1.525	United Kingdom/Nigeria – December 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Potential reduction in neutralization by convalescent and post-vaccination sera<br>Transmissibility and the virulence is under investigation	interest
+P.2	Brazil – April 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Reduced neutralization by post-vaccination sera<br>P.2 variant bears the E484K mutation, which causes Monoclonal and serum-derived antibodies  to be from 10 to 60 times less effective in neutralizing virus.            	interest
+B.1.617	India – February 2021	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Slightly reduced neutralization by post-vaccination sera<br>Spike mutations E484Q and L452R  may facilitate the variant to easily avoid antibodies.<br>Both AstraZeneca and Pfizer-BioNTech are sufficient enough againts B.1.617 variants, but efficacy is not clear yet.	interest
+B.1.617.1	India – December 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Potential reduction in neutralization by post-vaccination sera	interest
+B.1.617.2	India – December 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Potential reduction in neutralization by post-vaccination sera<br>Spreads more rapidly than the original variant of the virus	concern
+B.1.617.3	India – October 2020	Potential reduction in neutralization by some EUA monoclonal antibody treatments<br>Potential reduction in neutralization by post-vaccination sera	concern
+B.1.616	France	28 genomes have been sequenced <br> V483A, D614G, H655Y, G669S are the spike mutations of interest. <br> Higher transmissibility is related to Y144del spike mutation. <br> Escape from antibodies: re-infection / vaccine inefficiency NOT clear yet. <br> Evidence for impact on immunity is ALSO NOT clear. 	interest
+B.1.620	UNCLEAR YET, February 2021	Spike mutations of interest are S477N, E484K, D614G, P681H. <br> Evidence for impact on immunity is neutralisation. 	interest
+B.1.621	Colombia, January 2021	Spike mutations of interest are R346K, E484K, N501Y, D614G, P681H. <br> Evidence for impact on immunity is neutralisation. 	
+P.3	Philippines and Japan	Higher transmissibility is related to N501Y spike mutation. <br> Escape from antibodies: re-infection / vaccine inefficiency is accomplished by E484K spike mutation. <br> Evidence for impact on immunity is neutralisation. 	interest
+B.1	European early 2020 (speculated as end of January)	A large European lineage the origin of which roughly corresponds to the Northern Italian outbreak early in 2020. <br> Lineage B.1 is the predominant known global lineage and has been subdivided into >70 sublineages. <br> All variants in B.1 clade share one specific mutation called D614G. <br> This mutation was one of the first documented in the US in the initial stages of the pandemic, after having initially circulated in Europe. <br> There is evidence that variants with this mutation (D614G) spread more quickly than viruses without this mutation. <br> Although this variant causes increased infectivity, it is associated with decreased clinical severity in several reports.	main monophyletic group so that it can be classified as both concern or interest due to various sublineages.
+C.37	Peru, August 2020	Novel lineage expanding in Peru and Chile, with a convergent deletion in the ORF1a gene (?3675-3677) and a novel deletion in the Spike gene (?246-252, G75V, T76I, L452Q, F490S, T859N).	interest
+AA.1	Germany 41.0%, Spain 28.0%, Netherlands 9.0%, Switzerland 6.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.2	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.3	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.4	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.5	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.6	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.7	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AA.8	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AB.1	Denmark 99.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AC.1	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AD.1	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AD.2	United Kingdom 98.0%, Greece 0.0%, Netherlands 0.0%, Portugal 0.0%, Italy 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AD.2.1	Lithuania 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.1	Zambia 91.0%, United Kingdom 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.2	Bahrain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.3	Zambia 85.0%, India 8.0%, Rwanda 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.4	Bahrain 78.0%, Canada 17.0%, Qatar 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.5	Zambia 92.0%, Switzerland 4.0%, United Kingdom 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.6	Bahrain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.7	Bahrain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AE.8	Canada 100.0%, South_Korea 0.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AF.1	Switzerland 48.0%, Japan 44.0%, Turkey 2.0%, Spain 2.0%, France 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AG.1	Netherlands 75.0%, Germany 17.0%, Iceland 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AH.1	Switzerland 88.0%, Italy 12.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AH.2	France 83.0%, Switzerland 11.0%, Portugal 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AH.3	Finland 95.0%, United Kingdom 3.0%, Sweden 1.0%, Italy 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AJ.1	Portugal 72.0%, Gibraltar 28.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AK.1	United Kingdom 99.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AK.2	Germany 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AL.1	Canada 87.0%, United States of America 10.0%, Australia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AM.1	Portugal 89.0%, United Kingdom 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AM.2	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AM.3	United Kingdom 94.0%, India 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AM.4	Canada 98.0%, Japan 1.0%, Israel 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AN.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+AP.1	United Kingdom 95.0%, Germany 4.0%, Denmark 1.0%, Switzerland 0.0%, Slovenia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AQ.1	Finland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AQ.2	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AS.1	United Kingdom 93.0%, Canada 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AS.2	United Kingdom 95.0%, Turkey 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+AT.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1	United Kingdom 35.0%, United States of America 13.0%, Japan 8.0%, Germany 5.0%, Russia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.1	United Kingdom 62.0%, Peru 5.0%, United States of America 4.0%, Belgium 3.0%, Spain 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.3	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.4	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.5	Belgium 43.0%, United Kingdom 22.0%, Iceland 11.0%, Austria 4.0%, Germany 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.6		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.8	United Kingdom 68.0%, United States of America 19.0%, India 5.0%, Australia 2.0%, Singapore 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.10	Canada 43.0%, United Kingdom 36.0%, Iceland 4.0%, United States of America 3.0%, Ireland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.12	United Kingdom 91.0%, Lithuania 8.0%, Czech_Republic 1.0%, Bangladesh 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.13	United Kingdom 95.0%, Russia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.14	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.15	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.16	United Kingdom 52.0%, Japan 10.0%, Russia 10.0%, Peru 5.0%, Latvia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.17	Iceland 93.0%, Madagascar 2.0%, United States of America 2.0%, Japan 2.0%, Reunion 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.20		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.25	Bangladesh 58.0%, Canada 15.0%, United States of America 9.0%, United Kingdom 6.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.26	United States of America 99.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.27	Oman 92.0%, United_Arab_Emirates 4.0%, Uganda 4.0%, United Kingdom 1.0%, Bahrain 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.28	Brazil 70.0%, United States of America 14.0%, Japan 2.0%, Portugal 2.0%, Paraguay 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.29	United Kingdom 99.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.30	Lithuania 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.31	Russia 65.0%, Turkey 26.0%, Italy 4.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.32		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.33	Brazil 81.0%, United States of America 5.0%, Chile 4.0%, Argentina 2.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.34	South_Africa 90.0%, Zimbabwe 5.0%, United Kingdom 2.0%, Belgium 2.0%, Mozambique 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.35		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.36		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.37	United Kingdom 96.0%, Latvia 1.0%, Switzerland 1.0%, Iceland 1.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.38	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.39	Switzerland 66.0%, Germany 16.0%, United Kingdom 5.0%, France 2.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.40	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.41	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.43	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.44	United Kingdom 79.0%, Sweden 6.0%, Germany 4.0%, Denmark 3.0%, India 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.45	United Kingdom 94.0%, Japan 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.46	India 70.0%, United Kingdom 13.0%, Mongolia 10.0%, Singapore 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.47	Switzerland 46.0%, Finland 12.0%, Germany 8.0%, Denmark 7.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.48	Japan 99.0%, United Kingdom 1.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.49	United Kingdom 97.0%, Portugal 2.0%, Netherlands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.50	Israel 89.0%, Palestine 5.0%, United Kingdom 4.0%, Denmark 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.51	United Kingdom 99.0%, Russia 1.0%, Estonia 0.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.52	South_Africa 80.0%, United States of America 20.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.53	South_Africa 96.0%, Qatar 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.54	South_Africa 81.0%, Botswana 13.0%, United States of America 3.0%, United Kingdom 1.0%, Russia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.55	United Kingdom 97.0%, Japan 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.56	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.57	South_Africa 82.0%, Zimbabwe 6.0%, Russia 5.0%, India 5.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.58	Germany 45.0%, Switzerland 19.0%, Slovenia 18.0%, Macedonia 8.0%, Denmark 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.59	United Kingdom 99.0%, United States of America 1.0%, Bangladesh 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.60		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.61	United States of America 88.0%, Italy 8.0%, Japan 3.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.62	South_Africa 92.0%, Zambia 4.0%, Zimbabwe 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.63	Hong_Kong 82.0%, Japan 8.0%, Australia 3.0%, Malaysia 1.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.64		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.65		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.66		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.67	United Kingdom 89.0%, Latvia 5.0%, Japan 2.0%, South_Africa 2.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.70	Denmark 25.0%, Switzerland 21.0%, Germany 18.0%, Slovenia 9.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.71	Netherlands 33.0%, United Kingdom 16.0%, United_Arab_Emirates 10.0%, Australia 7.0%, Belgium 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.72	United States of America 79.0%, Switzerland 21.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.73		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.74	United Kingdom 90.0%, United States of America 4.0%, Ireland 2.0%, Russia 1.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.75	Qatar 43.0%, Belgium 41.0%, Sweden 6.0%, New_Zealand 3.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.76		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.77	United States of America 96.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.78		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.79		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.80		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.81		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.82	United Kingdom 86.0%, Germany 7.0%, Japan 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.83	United Kingdom 86.0%, Germany 9.0%, United States of America 2.0%, Russia 1.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.84	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.85		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.86	United Kingdom 97.0%, Russia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.87	Hungary 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.88	Portugal 93.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.89	United Kingdom 90.0%, Australia 3.0%, Japan 1.0%, Bangladesh 1.0%, Slovenia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.90	Sweden 75.0%, Denmark 25.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.91	Sweden 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.92	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.93	United States of America 97.0%, Mexico 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.94		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.95	United Kingdom 95.0%, Indonesia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.96		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.97	United Kingdom 94.0%, India 3.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.98	United States of America 98.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.99	South_Africa 62.0%, United Kingdom 10.0%, Zambia 7.0%, Chile 7.0%, Russia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.100	Denmark 96.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.101	India 62.0%, United States of America 32.0%, France 2.0%, Turkey 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.102		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.103		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.104		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.105		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.106		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.107	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.108		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.109	United Kingdom 96.0%, Turkey 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.110	Peru 92.0%, Finland 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.111	Zimbabwe 53.0%, Zambia 41.0%, United Kingdom 3.0%, United States of America 2.0%, Kenya 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.112	Netherlands 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.113	United States of America 97.0%, United Kingdom 1.0%, Austria 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.114	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.115	United Kingdom 98.0%, Turkey 1.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.116	United States of America 94.0%, India 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.117	South_Africa 72.0%, United States of America 8.0%, Russia 7.0%, Argentina 3.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.118	United States of America 99.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.119	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.120	United Kingdom 73.0%, United States of America 17.0%, Brazil 7.0%, Chile 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.121	Canada 94.0%, United States of America 5.0%, United Kingdom 1.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.122	Netherlands 68.0%, United States of America 11.0%, United Kingdom 5.0%, Belgium 5.0%, Japan 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.123	United Kingdom 98.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.124		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.125	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.126		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.127	Russia 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.128	United States of America 97.0%, Argentina 1.0%, Mexico 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.129	Germany 66.0%, Russia 33.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.130	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.131		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.132	United States of America 77.0%, Japan 11.0%, Spain 5.0%, India 3.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.133	United_Arab_Emirates 66.0%, United Kingdom 17.0%, Australia 10.0%, Canada 2.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.134	United Kingdom 74.0%, Germany 14.0%, United States of America 4.0%, Latvia 2.0%, Japan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.135	United States of America 89.0%, Japan 5.0%, Israel 1.0%, Togo 1.0%, Russia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.136	Australia 90.0%, Turkey 8.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.137	United Kingdom 95.0%, United States of America 4.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.138	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.139	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.140		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.141	Latvia 55.0%, Russia 22.0%, Germany 13.0%, Sweden 4.0%, Netherlands 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.142	Australia 42.0%, United States of America 35.0%, Germany 8.0%, Turkey 5.0%, Russia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.143		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.144	Switzerland 74.0%, Germany 9.0%, United Kingdom 9.0%, South_Korea 3.0%, Austria 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.145	United Kingdom 88.0%, Switzerland 4.0%, Guadeloupe 4.0%, Rwanda 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.146		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.147	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.148	United States of America 97.0%, United Kingdom 2.0%, India 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.149	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.150		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.151		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.152	Russia 83.0%, Germany 12.0%, Finland 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.153	Denmark 34.0%, Germany 14.0%, Poland 14.0%, Norway 7.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.154	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.155	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.156		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.157	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.158	United States of America 93.0%, Peru 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.159	Denmark 25.0%, Latvia 10.0%, Lithuania 8.0%, Germany 7.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.160	United Kingdom 91.0%, United States of America 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.161	Saudi_Arabia 17.0%, Germany 16.0%, United States of America 15.0%, Czech_Republic 8.0%, Finland 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.162	Iceland 67.0%, Latvia 9.0%, United Kingdom 9.0%, Russia 6.0%, Belgium 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.163	Russia 49.0%, Armenia 17.0%, Qatar 12.0%, Netherlands 5.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.164	United Kingdom 96.0%, Australia 1.0%, Japan 1.0%, Finland 1.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.165	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.166	United Kingdom 82.0%, Russia 6.0%, South_Korea 6.0%, South_Africa 3.0%, Peru 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.167		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.168	United Kingdom 76.0%, United States of America 24.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.169	United States of America 97.0%, Switzerland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.170	Denmark 32.0%, Germany 17.0%, United Kingdom 13.0%, Iceland 9.0%, Norway 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.171	United Kingdom 95.0%, United States of America 3.0%, Germany 1.0%, Poland 1.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.172	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.173		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.174	United States of America 76.0%, India 6.0%, Ireland 5.0%, United Kingdom 3.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.175	Bangladesh 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.176	Canada 100.0%, United States of America 0.0%, Singapore 0.0%, Belgium 0.0%, Monaco 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.177	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.178	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.179		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.180	United States of America 96.0%, Chile 3.0%, Russia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.181	Canada 77.0%, Turkey 23.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.182	United Kingdom 55.0%, United_Arab_Emirates 36.0%, Japan 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.183		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.184	Russia 94.0%, Ireland 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.185	Netherlands 92.0%, Iceland 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.186	United States of America 99.0%, Rwanda 0.0%, France 0.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.187	Italy 81.0%, United Kingdom 14.0%, Bulgaria 4.0%, Brazil 1.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.189	Turkey 34.0%, Germany 19.0%, United Kingdom 16.0%, Switzerland 11.0%, Denmark 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.190	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.191	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.192	United States of America 85.0%, Bahamas 3.0%, Bulgaria 3.0%, United Kingdom 2.0%, Israel 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.193	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.194	United Kingdom 82.0%, India 8.0%, Germany 3.0%, Poland 2.0%, Russia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.195		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.196	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.197	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.198	United Kingdom 72.0%, Luxembourg 11.0%, Portugal 4.0%, Ireland 2.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.199		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.200	United Kingdom 66.0%, Netherlands 10.0%, Switzerland 7.0%, Belgium 4.0%, Germany 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.201	India 56.0%, United States of America 17.0%, Singapore 17.0%, United Kingdom 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.202	Italy 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.203	United Kingdom 88.0%, Ecuador 8.0%, United_Arab_Emirates 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.204	Norway 40.0%, United Kingdom 39.0%, Germany 11.0%, Denmark 3.0%, Sweden 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.205	United States of America 98.0%, France 1.0%, Japan 1.0%, Mexico 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.206		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.208	United Kingdom 96.0%, Indonesia 1.0%, United_Arab_Emirates 1.0%, Brazil 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.209	Netherlands 68.0%, United Kingdom 31.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.210	United States of America 99.0%, Indonesia 1.0%, Ireland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.211		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.212		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.213	United Kingdom 98.0%, Togo 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.214	Japan 100.0%, South_Korea 0.0%, Switzerland 0.0%, Australia 0.0%, Cambodia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.215		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.216	India 73.0%, United Kingdom 7.0%, Japan 4.0%, United States of America 3.0%, Canada 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.217	United Kingdom 85.0%, United States of America 11.0%, Japan 2.0%, Italy 1.0%, Sweden 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.218	United Kingdom 54.0%, Denmark 14.0%, Germany 10.0%, Bulgaria 6.0%, Switzerland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.219	Denmark 51.0%, Germany 11.0%, Iceland 8.0%, Poland 6.0%, Switzerland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.220	United Kingdom 66.0%, United States of America 13.0%, Germany 5.0%, Japan 3.0%, Russia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.221	Belgium 78.0%, Peru 10.0%, Japan 2.0%, Netherlands 2.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.222	United States of America 79.0%, Mexico 19.0%, Spain 0.0%, Canada 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.223		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.224	Denmark 85.0%, Germany 15.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.225	United States of America 98.0%, Japan 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.226	United States of America 96.0%, Canada 3.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.227	United Kingdom 99.0%, United States of America 1.0%, Sweden 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.231	United States of America 92.0%, Ecuador 2.0%, United Kingdom 2.0%, Germany 1.0%, India 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.232	Iceland 42.0%, Germany 21.0%, Belgium 10.0%, Netherlands 9.0%, United Kingdom 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.233		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.234	United Kingdom 75.0%, Germany 10.0%, Ireland 7.0%, Austria 3.0%, France 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.235		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.236	United Kingdom 71.0%, Germany 22.0%, Turkey 6.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.237	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.238		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.239	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.240	United Kingdom 97.0%, Belgium 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.241	France 34.0%, United Kingdom 25.0%, Madagascar 6.0%, Denmark 6.0%, Germany 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.242	Gambia 58.0%, Switzerland 33.0%, United States of America 4.0%, United Kingdom 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.243	Lithuania 57.0%, Norway 8.0%, Ukraine 6.0%, United Kingdom 6.0%, Denmark 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.244	United States of America 89.0%, Mexico 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.245		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.246		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.247		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.248		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.249	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.250		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.251	United States of America 97.0%, Russia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.252		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.253	United Kingdom 99.0%, France 1.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.254	South_Africa 29.0%, United Kingdom 17.0%, United States of America 13.0%, France 12.0%, Australia 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.255	United Kingdom 100.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.256	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.257	United Kingdom 80.0%, Netherlands 11.0%, Portugal 3.0%, Singapore 3.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.258	United States of America 100.0%, Indonesia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.259		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.260		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.261	Sweden 48.0%, Denmark 37.0%, Faroe_Islands 9.0%, Germany 5.0%, Norway 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.262		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.263	United_Arab_Emirates 88.0%, Japan 3.0%, United States of America 2.0%, United Kingdom 2.0%, Hong_Kong 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.264		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.265	United States of America 98.0%, United Kingdom 0.0%, Costa_Rica 0.0%, Japan 0.0%, Italy 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.266	Czech_Republic 47.0%, United Kingdom 21.0%, Germany 7.0%, Switzerland 5.0%, Austria 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.267	Ireland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.268	United States of America 95.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.269	United Kingdom 39.0%, Spain 17.0%, France 12.0%, Denmark 11.0%, Switzerland 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.270	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.271	Austria 69.0%, Germany 31.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.272	Denmark 92.0%, United Kingdom 6.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.273	South_Africa 99.0%, Zambia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.274	United Kingdom 45.0%, United States of America 20.0%, Russia 13.0%, Thailand 4.0%, India 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.275	Democratic Republic of the Congo 51.0%, Angola 24.0%, United Kingdom 14.0%, United_Arab_Emirates 8.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.276		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.277	Denmark 48.0%, United Kingdom 18.0%, Switzerland 8.0%, Norway 5.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.278		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.279	United Kingdom 100.0%, Hong_Kong 0.0%, Ireland 0.0%, Oman 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.280	Lithuania 92.0%, Norway 2.0%, United Kingdom 2.0%, Germany 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.281		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.282	Netherlands 58.0%, Japan 16.0%, Turkey 16.0%, India 3.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.283	Japan 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.284	Japan 100.0%, South_Korea 0.0%, Australia 0.0%, Hong_Kong 0.0%, Thailand 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.285	Japan 80.0%, United States of America 18.0%, Mexico 2.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.286	United Kingdom 99.0%, Japan 0.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.287		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.288	Denmark 97.0%, United Kingdom 1.0%, Turkey 0.0%, France 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.289	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.290	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.291	United States of America 98.0%, Latvia 1.0%, Canada 0.0%, United Kingdom 0.0%, Russia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.292		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.293		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.294	Denmark 23.0%, United Kingdom 20.0%, Russia 16.0%, Israel 15.0%, Germany 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.295		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.296	United Kingdom 98.0%, Turkey 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.297	Germany 46.0%, Belgium 30.0%, Luxembourg 12.0%, Netherlands 8.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.298	Denmark 100.0%, Russia 0.0%, Faroe_Islands 0.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.299	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.300	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.301	United Kingdom 97.0%, Germany 2.0%, Bulgaria 0.0%, Romania 0.0%, South_Korea 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.302	Sweden 58.0%, Denmark 28.0%, Latvia 6.0%, United Kingdom 4.0%, Norway 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.303	United Kingdom 99.0%, Portugal 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.304	United States of America 98.0%, United Kingdom 1.0%, Chile 0.0%, Denmark 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.305	United Kingdom 52.0%, Germany 18.0%, Switzerland 8.0%, Norway 6.0%, Italy 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.306	India 90.0%, United States of America 3.0%, United Kingdom 2.0%, Zambia 1.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.307	United Kingdom 97.0%, United States of America 1.0%, Poland 1.0%, South_Africa 1.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.308	United Kingdom 99.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.309	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.310	United Kingdom 99.0%, India 0.0%, Austria 0.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.311	United Kingdom 99.0%, Denmark 0.0%, Ireland 0.0%, United States of America 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.312	Jordan 89.0%, United States of America 8.0%, Japan 1.0%, Sweden 1.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.313		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.314		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.315	United_Arab_Emirates 41.0%, United Kingdom 28.0%, Germany 6.0%, Israel 5.0%, Bangladesh 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.316	United States of America 97.0%, Mexico 2.0%, Canada 1.0%, Spain 0.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.317	Germany 52.0%, Russia 24.0%, United States of America 3.0%, Estonia 3.0%, Finland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.318		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.319	Russia 55.0%, Austria 15.0%, Peru 9.0%, Ireland 4.0%, United Kingdom 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.320	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.322	United States of America 77.0%, Mexico 23.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.323	United Kingdom 51.0%, Iceland 18.0%, Germany 13.0%, Netherlands 7.0%, Sweden 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.324	Chile 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.325	Denmark 58.0%, Belgium 11.0%, Turkey 8.0%, Lithuania 8.0%, Ukraine 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.326	India 97.0%, Germany 1.0%, United Kingdom 1.0%, Bahrain 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.327	Switzerland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.328	Costa_Rica 57.0%, United States of America 39.0%, Poland 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.329	United States of America 89.0%, Canada 7.0%, Mexico 1.0%, United Kingdom 1.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.330	China 94.0%, Indonesia 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.331	Austria 98.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.332	Brazil 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.333	Norway 100.0%, Denmark 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.334	United States of America 83.0%, Mexico 17.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.335	United States of America 91.0%, Germany 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.336	Russia 82.0%, Germany 6.0%, Poland 4.0%, Switzerland 2.0%, Kazakhstan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.337	United States of America 99.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.338	Germany 98.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.339	United_Arab_Emirates 82.0%, United Kingdom 11.0%, Canada 5.0%, Jordan 1.0%, Netherlands 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.340	India 86.0%, Japan 5.0%, Spain 5.0%, United States of America 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.341	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.342	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.343	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.344	United States of America 61.0%, Mexico 36.0%, Australia 1.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.345	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.346	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.347	Austria 52.0%, Germany 25.0%, United Kingdom 12.0%, Romania 5.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.348	United States of America 49.0%, Chile 25.0%, Colombia 9.0%, Peru 8.0%, Ecuador 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.349	Russia 54.0%, United Kingdom 10.0%, Finland 10.0%, Mongolia 4.0%, Estonia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.350	Latvia 80.0%, India 7.0%, Hungary 7.0%, United States of America 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.351	United States of America 23.0%, Germany 18.0%, Denmark 14.0%, United Kingdom 9.0%, Finland 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.352	United States of America 80.0%, Switzerland 20.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.353	Reunion 44.0%, United Kingdom 10.0%, United_Arab_Emirates 10.0%, United States of America 7.0%, Australia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.354	India 31.0%, Singapore 19.0%, Malaysia 12.0%, United_Arab_Emirates 7.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.355	United Kingdom 84.0%, United States of America 11.0%, Belgium 3.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.356	United States of America 97.0%, Germany 2.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.357	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.358	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.359	Ghana 66.0%, Denmark 21.0%, Burkina_Faso 7.0%, United States of America 3.0%, Togo 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.360	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.361	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.362	United States of America 94.0%, Mexico 3.0%, Japan 2.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.363	United Kingdom 98.0%, Indonesia 1.0%, Chile 1.0%, Poland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.364	Russia 53.0%, United Kingdom 21.0%, United States of America 16.0%, South_Korea 5.0%, Japan 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.365	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.366	United_Arab_Emirates 95.0%, Oman 2.0%, Switzerland 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.367	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.368	United States of America 96.0%, Canada 1.0%, Guatemala 1.0%, Australia 0.0%, British_Virgin_Islands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.369	United Kingdom 98.0%, Iceland 1.0%, Uganda 0.0%, Canada 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.370	Russia 55.0%, United States of America 33.0%, Peru 3.0%, United Kingdom 3.0%, South_Korea 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.371	United Kingdom 46.0%, Denmark 17.0%, Switzerland 7.0%, Romania 5.0%, Saudi_Arabia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.372	United Kingdom 88.0%, Russia 3.0%, United States of America 2.0%, Switzerland 1.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.373	Russia 89.0%, United Kingdom 5.0%, Crimea 3.0%, Hong_Kong 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.374	Latvia 32.0%, Lithuania 25.0%, Germany 16.0%, United States of America 8.0%, Poland 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.375	Mozambique 44.0%, South_Africa 34.0%, Turkey 10.0%, United Kingdom 5.0%, Netherlands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.376	United States of America 99.0%, Brazil 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.377	Denmark 100.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.378	United Kingdom 40.0%, Brazil 40.0%, Spain 8.0%, United States of America 3.0%, Finland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.379	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.380	United States of America 98.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.381	Peru 59.0%, Chile 32.0%, United States of America 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.382	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.383	South_Africa 94.0%, Australia 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.384	Switzerland 67.0%, Germany 30.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.385	Germany 84.0%, France 9.0%, Switzerland 3.0%, Croatia 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.386	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.387	Russia 94.0%, United States of America 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.388	Colombia 91.0%, Ecuador 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.389	Costa_Rica 89.0%, Spain 5.0%, United States of America 5.0%, Japan 1.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.391	United_Arab_Emirates 96.0%, United States of America 3.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.392	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.393	Brazil 67.0%, Singapore 22.0%, United States of America 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.394	Portugal 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.395	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.396	Russia 44.0%, Israel 28.0%, Japan 11.0%, Sweden 6.0%, Turkey 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.397	Russia 49.0%, Estonia 13.0%, Latvia 10.0%, Israel 7.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.398	Indonesia 69.0%, United States of America 16.0%, Singapore 3.0%, Japan 3.0%, Latvia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.399	Ireland 90.0%, Nigeria 10.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.400	Spain 82.0%, United States of America 14.0%, Italy 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.401	Japan 70.0%, Portugal 19.0%, United States of America 5.0%, United Kingdom 4.0%, Brazil 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.402	United States of America 98.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.403	United States of America 85.0%, Canada 8.0%, Mexico 4.0%, Ghana 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.404	Burkina_Faso 45.0%, Germany 27.0%, Ghana 9.0%, Togo 6.0%, Cote_d'Ivoire 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.405	Germany 92.0%, Russia 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.406	United Kingdom 65.0%, Spain 21.0%, Ireland 4.0%, Switzerland 3.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.407	Russia 85.0%, Finland 5.0%, United States of America 5.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.408	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.409	United_Arab_Emirates 75.0%, Saudi_Arabia 6.0%, Russia 3.0%, India 3.0%, Netherlands 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.410	Portugal 80.0%, United Kingdom 10.0%, Norway 5.0%, Luxembourg 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.411	United States of America 67.0%, Ecuador 19.0%, Switzerland 6.0%, Spain 2.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.412	South_Africa 98.0%, New_Zealand 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.413	United Kingdom 46.0%, Germany 19.0%, Turkey 12.0%, United States of America 4.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.414	India 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.415	Austria 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.416	United States of America 93.0%, Australia 5.0%, Chile 1.0%, Japan 0.0%, New_Zealand 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.417	Canada 98.0%, United Kingdom 1.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.418	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.419	United Kingdom 63.0%, United States of America 25.0%, Bahrain 2.0%, Portugal 2.0%, Armenia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.420	Italy 23.0%, Luxembourg 20.0%, Spain 12.0%, France 11.0%, United States of America 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.421	Portugal 74.0%, United Kingdom 12.0%, United States of America 9.0%, France 3.0%, Switzerland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.422	Lithuania 82.0%, Belarus 9.0%, Poland 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.423	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.424	Russia 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.425	Denmark 60.0%, United Kingdom 30.0%, India 5.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.426	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.427	United States of America 56.0%, Russia 44.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.428	Switzerland 34.0%, Germany 31.0%, Denmark 10.0%, Sweden 10.0%, Macedonia 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.429	Latvia 96.0%, Denmark 1.0%, Finland 1.0%, Estonia 1.0%, Belgium 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.430	Macedonia 65.0%, Norway 25.0%, Germany 5.0%, Switzerland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.431	Canada 76.0%, Australia 8.0%, United States of America 4.0%, Germany 4.0%, United_Arab_Emirates 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.432	United States of America 85.0%, Mexico 13.0%, Canada 1.0%, Germany 1.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.433	Denmark 87.0%, Croatia 3.0%, Switzerland 2.0%, Slovenia 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.434	United States of America 92.0%, United Kingdom 7.0%, Canada 0.0%, Israel 0.0%, India 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.435	Russia 96.0%, Luxembourg 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.436	Belgium 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.437	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.438	Sweden 85.0%, Bosnia_and_Herzegovina 5.0%, United Kingdom 5.0%, United States of America 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.439		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.440	United States of America 98.0%, Northern_Mariana_Islands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.441	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.442		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.444	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.445	Switzerland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.446	Sweden 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.447	United States of America 75.0%, Poland 20.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.448	South_Africa 96.0%, Zambia 2.0%, Mozambique 1.0%, Panama 0.0%, Eswatini 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.449	France 53.0%, Russia 42.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.450	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.451	Norway 96.0%, United Kingdom 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.452	Russia 88.0%, India 12.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.453	United States of America 93.0%, Mexico 1.0%, Canada 1.0%, Russia 1.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.456	South_Africa 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.458	Sweden 36.0%, Germany 32.0%, Turkey 9.0%, Switzerland 9.0%, Norway 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.459	South_Africa 83.0%, Zimbabwe 15.0%, France 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.461	United States of America 91.0%, Switzerland 5.0%, Italy 2.0%, Germany 2.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.462	United_Arab_Emirates 85.0%, United Kingdom 4.0%, United States of America 3.0%, Latvia 2.0%, Netherlands 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.463	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.464	United States of America 95.0%, Switzerland 1.0%, Russia 1.0%, United Kingdom 1.0%, Israel 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.465	Japan 83.0%, Israel 17.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.466	Gambia 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.467	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.480	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.481	Russia 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.482	United States of America 53.0%, Japan 37.0%, United Kingdom 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.483	Belgium 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.484	Nigeria 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.485	United States of America 48.0%, Ghana 28.0%, Peru 12.0%, Russia 4.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.486	United States of America 98.0%, Russia 1.0%, Japan 0.0%, Singapore 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.487	United Kingdom 41.0%, Nigeria 39.0%, Spain 10.0%, United States of America 3.0%, France 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.500	United_Arab_Emirates 71.0%, United Kingdom 10.0%, Israel 5.0%, Peru 5.0%, Russia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.506	Russia 96.0%, New_Zealand 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.507	South_Africa 96.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.512	United States of America 77.0%, Mexico 23.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.513	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.514	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.515	Germany 94.0%, United States of America 4.0%, Taiwan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.516	Costa_Rica 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.517	United States of America 88.0%, Mexico 11.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.518	United States of America 93.0%, Mexico 5.0%, Canada 1.0%, Portugal 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.519	United States of America 66.0%, Mexico 29.0%, Germany 1.0%, Switzerland 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.521	Germany 39.0%, Turkey 18.0%, Switzerland 14.0%, United Kingdom 9.0%, Denmark 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.522	Belgium 94.0%, Netherlands 4.0%, France 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.1.523		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.2	United States of America 97.0%, Canada 1.0%, Germany 0.0%, Mexico 0.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.3	United States of America 99.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.3.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.3.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.3.3		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.3.4		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.5		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.6		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.11		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.12		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.13		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.15		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.16		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.17		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.18		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.19		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.21		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.25		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.26		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.27		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.28		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.29		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.30		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.31		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.32		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.33		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.34		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.35		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.5.36		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.6	Belgium 71.0%, Democratic Republic of the Congo 11.0%, France 7.0%, United Kingdom 4.0%, South_Africa 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.8	Netherlands 46.0%, United States of America 12.0%, Germany 10.0%, South_Africa 8.0%, Austria 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.8.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9	Turkey 32.0%, Netherlands 21.0%, Belgium 16.0%, Germany 10.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.1	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.2	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.3	Belgium 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.4	Germany 86.0%, Switzerland 4.0%, Denmark 3.0%, United Kingdom 3.0%, Norway 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.5	Turkey 31.0%, Germany 13.0%, Switzerland 10.0%, United Kingdom 9.0%, Denmark 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.9.6		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.11		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.12	Belgium 35.0%, United Kingdom 28.0%, Luxembourg 25.0%, United States of America 4.0%, France 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.13	United Kingdom 89.0%, Australia 3.0%, France 2.0%, Iceland 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.14	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.19		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.21		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.22	Netherlands 81.0%, Germany 5.0%, United Kingdom 3.0%, Hungary 2.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.22.1	Curaçao 70.0%, Sweden 14.0%, Sint_Eustatius 11.0%, Netherlands 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.23	Australia 82.0%, New_Zealand 15.0%, United Kingdom 1.0%, Spain 1.0%, Portugal 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.25		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.26		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.34		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.35	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36	India 29.0%, Canada 14.0%, United Kingdom 13.0%, Denmark 8.0%, Hong_Kong 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.1	Switzerland 31.0%, Sweden 24.0%, Germany 11.0%, United Kingdom 8.0%, Norway 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.2	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.3		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.4		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.5		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.6		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.7	United Kingdom 77.0%, Canada 8.0%, United States of America 6.0%, Turkey 4.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.8	India 54.0%, Canada 19.0%, Denmark 8.0%, United States of America 7.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.9	United Kingdom 81.0%, Sweden 9.0%, Denmark 7.0%, India 1.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.10	United States of America 50.0%, Jordan 7.0%, France 7.0%, India 6.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.11		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.12	United Kingdom 99.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.13		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.14		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.15		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.16	Thailand 60.0%, United Kingdom 12.0%, Bangladesh 8.0%, Malaysia 6.0%, Spain 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.17	United Kingdom 96.0%, Switzerland 1.0%, India 1.0%, Denmark 0.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.17.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.18	Canada 94.0%, India 4.0%, New_Zealand 1.0%, Hong_Kong 0.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.19	Indonesia 58.0%, Singapore 24.0%, Australia 7.0%, India 4.0%, Hong_Kong 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.20	United Kingdom 74.0%, Germany 19.0%, Denmark 5.0%, Netherlands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.21	Norway 99.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.23	United Kingdom 83.0%, Netherlands 9.0%, Slovenia 2.0%, India 2.0%, Ireland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.24	United Kingdom 78.0%, Germany 8.0%, Denmark 6.0%, Singapore 1.0%, India 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.25	Denmark 100.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.26	Canada 95.0%, United Kingdom 4.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.27	Hong_Kong 99.0%, Thailand 1.0%, South_Korea 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.28	United Kingdom 99.0%, Gibraltar 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.29	India 88.0%, United Kingdom 5.0%, United States of America 1.0%, Singapore 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.31	United Kingdom 30.0%, Canada 20.0%, United States of America 15.0%, Denmark 10.0%, Sweden 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.33	Denmark 74.0%, Sweden 9.0%, United Kingdom 5.0%, Belgium 4.0%, Qatar 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.34	United Kingdom 79.0%, Pakistan 9.0%, Japan 3.0%, Canada 3.0%, Spain 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.35	Switzerland 63.0%, United Kingdom 11.0%, Norway 10.0%, Germany 6.0%, Denmark 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.36	Canada 100.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.37	Canada 98.0%, United Kingdom 2.0%, United_Arab_Emirates 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.38	Canada 73.0%, United Kingdom 12.0%, Belgium 6.0%, United States of America 3.0%, India 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.36.39	United Kingdom 98.0%, India 1.0%, New_Zealand 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.37	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.38	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.39	Denmark 91.0%, Iceland 3.0%, Singapore 2.0%, United Kingdom 2.0%, New_Zealand 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.40	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.44	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.67	United Kingdom 77.0%, Ecuador 23.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.69	United Kingdom 88.0%, Italy 12.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.70	United Kingdom 95.0%, United States of America 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.74		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.75		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.76	United Kingdom 97.0%, Italy 1.0%, South_Africa 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.77	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.78	Netherlands 96.0%, United Kingdom 3.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.79		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.80		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.81	United Kingdom 88.0%, United States of America 5.0%, Germany 5.0%, Turkey 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.82		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.83	Belgium 92.0%, Australia 2.0%, France 2.0%, United States of America 2.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.84	Democratic Republic of the Congo 92.0%, Zambia 6.0%, France 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.88		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.89		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.90		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.91	Portugal 64.0%, United Kingdom 13.0%, Brazil 5.0%, New_Zealand 5.0%, Italy 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.93	United Kingdom 91.0%, Switzerland 3.0%, Ireland 3.0%, France 1.0%, Iceland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.94	Luxembourg 45.0%, United States of America 22.0%, France 10.0%, Germany 5.0%, India 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.95		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.96	Netherlands 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.97	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.98		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.102		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.103	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.104	United Kingdom 83.0%, United States of America 12.0%, Singapore 3.0%, Canada 1.0%, Colombia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.105	United Kingdom 94.0%, Italy 3.0%, Mexico 2.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.106	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.107		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.108	United States of America 95.0%, Australia 4.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.109		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.110	Chile 52.0%, United States of America 40.0%, Argentina 4.0%, Australia 3.0%, Belgium 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.110.1	Chile 90.0%, United States of America 10.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.110.2	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.110.3	United States of America 99.0%, Russia 0.0%, United Kingdom 0.0%, Canada 0.0%, Finland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.111	United States of America 53.0%, Colombia 24.0%, Aruba 3.0%, Canada 3.0%, Spain 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.112	United States of America 99.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.113	India 97.0%, United States of America 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.114		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.115	Israel 47.0%, United Kingdom 29.0%, United States of America 24.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.116	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.117	United Kingdom 97.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.118	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.119	United States of America 97.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.120	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.124	United States of America 99.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.126	United States of America 99.0%, Mexico 1.0%, Canada 0.0%, United Kingdom 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.127	Denmark 64.0%, United States of America 34.0%, Sweden 1.0%, Finland 0.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.128	Canada 93.0%, Democratic Republic of the Congo 3.0%, Switzerland 3.0%, France 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.131	United Kingdom 25.0%, Germany 16.0%, Denmark 16.0%, United States of America 12.0%, Norway 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.133		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.134	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.135		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.136		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.137	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.138		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.139	United States of America 100.0%, Turkey 0.0%, Germany 0.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.140	South_Africa 94.0%, United States of America 4.0%, Mozambique 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.141		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.142	United Kingdom 99.0%, United States of America 1.0%, Switzerland 0.0%, Sweden 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.143	India 73.0%, United States of America 9.0%, United Kingdom 4.0%, Bulgaria 4.0%, Estonia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.144		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.145	India 93.0%, Finland 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.146	Switzerland 53.0%, Germany 15.0%, Slovenia 13.0%, Austria 7.0%, Luxembourg 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.147	Canada 86.0%, Belize 4.0%, United Kingdom 3.0%, France 3.0%, Belgium 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.149	Slovenia 43.0%, Democratic Republic of the Congo 20.0%, United Kingdom 13.0%, Netherlands 9.0%, Switzerland 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.150		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.151	United Kingdom 80.0%, Ireland 9.0%, France 3.0%, United States of America 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.152		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.153	United Kingdom 23.0%, India 20.0%, United States of America 13.0%, Germany 8.0%, Turkey 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.154		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.156		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.157	United Kingdom 57.0%, Spain 36.0%, United States of America 2.0%, Belgium 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.158	Finland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.159	France 68.0%, Germany 12.0%, Bangladesh 5.0%, Democratic Republic of the Congo 5.0%, Canada 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160	Denmark 17.0%, France 16.0%, Switzerland 12.0%, United Kingdom 9.0%, Germany 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.3		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.4		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.5		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.6		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.7	United Kingdom 99.0%, Denmark 0.0%, Italy 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.8	Denmark 90.0%, Sweden 7.0%, France 3.0%, Belgium 0.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.9	Switzerland 77.0%, Belgium 16.0%, France 6.0%, Portugal 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.10	Switzerland 97.0%, United Kingdom 3.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.11	Switzerland 99.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.12	Switzerland 99.0%, Germany 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.13	Netherlands 76.0%, Germany 21.0%, Hong_Kong 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.14	Switzerland 96.0%, France 1.0%, Spain 1.0%, Germany 1.0%, Portugal 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.15	Switzerland 90.0%, Germany 5.0%, France 2.0%, Netherlands 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.16	Switzerland 96.0%, Portugal 1.0%, United States of America 1.0%, Germany 1.0%, France 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.17	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.18	Mayotte 70.0%, Reunion 29.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.19	Switzerland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.20	Switzerland 94.0%, Qatar 2.0%, Germany 2.0%, United States of America 2.0%, Belgium 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.21	Luxembourg 95.0%, Portugal 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.22	Switzerland 91.0%, Germany 4.0%, Austria 2.0%, Portugal 2.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.23	United Kingdom 99.0%, Hungary 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.24	Denmark 96.0%, Sweden 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.25	French_Guiana 85.0%, France 12.0%, Germany 2.0%, Brazil 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.26	Switzerland 84.0%, France 6.0%, Portugal 3.0%, Luxembourg 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.27	Mayotte 98.0%, Reunion 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.28	Belgium 43.0%, Germany 22.0%, Luxembourg 18.0%, Netherlands 6.0%, France 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.29	Switzerland 85.0%, France 7.0%, Portugal 7.0%, Netherlands 1.0%, Luxembourg 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.30	Switzerland 62.0%, Germany 22.0%, United Kingdom 12.0%, New_Zealand 2.0%, Poland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.31	Switzerland 91.0%, Germany 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.32	Switzerland 86.0%, Germany 7.0%, France 2.0%, Mexico 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.160.33	United Kingdom 96.0%, France 3.0%, Belgium 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.161	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.162	United States of America 98.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.163	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.164	Latvia 57.0%, Belarus 17.0%, Norway 7.0%, Germany 5.0%, Australia 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.165	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.166	United States of America 97.0%, Canada 2.0%, Denmark 1.0%, Israel 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.167	United Kingdom 52.0%, Canada 37.0%, United States of America 7.0%, Brazil 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.168	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.169	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.170	United States of America 31.0%, France 17.0%, Egypt 13.0%, United_Arab_Emirates 11.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.173	United Kingdom 97.0%, Netherlands 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177	United Kingdom 64.0%, Spain 10.0%, Germany 5.0%, Switzerland 4.0%, Italy 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.2	United Kingdom 93.0%, Ireland 5.0%, Belgium 1.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.3	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.4	United Kingdom 98.0%, Spain 0.0%, France 0.0%, Denmark 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.5	United Kingdom 100.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.6	United Kingdom 99.0%, Portugal 0.0%, Ireland 0.0%, Netherlands 0.0%, Tunisia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.7	United Kingdom 99.0%, Norway 0.0%, Ireland 0.0%, Switzerland 0.0%, Portugal 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.8	United Kingdom 98.0%, Poland 0.0%, Czech_Republic 0.0%, Belgium 0.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.9	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.10	United Kingdom 85.0%, Spain 9.0%, Italy 4.0%, Belgium 1.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.11	United Kingdom 99.0%, South_Korea 0.0%, Poland 0.0%, Denmark 0.0%, Singapore 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.12	Denmark 100.0%, Latvia 0.0%, Spain 0.0%, Switzerland 0.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.13		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.14	Denmark 55.0%, Norway 43.0%, Germany 1.0%, United Kingdom 1.0%, Spain 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.15	United Kingdom 97.0%, Sweden 1.0%, Portugal 0.0%, Germany 0.0%, Belgium 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.16	United Kingdom 97.0%, Sweden 2.0%, India 0.0%, Germany 0.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.17	United Kingdom 98.0%, Germany 2.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.18	United Kingdom 96.0%, Ireland 3.0%, United States of America 1.0%, Luxembourg 0.0%, Italy 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.19	United Kingdom 98.0%, Germany 1.0%, Ireland 0.0%, New_Zealand 0.0%, India 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.20	United Kingdom 99.0%, Germany 1.0%, New_Zealand 0.0%, Ireland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.21	Denmark 96.0%, Sweden 3.0%, Germany 1.0%, United Kingdom 0.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.22		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.23	Switzerland 98.0%, Austria 1.0%, Canada 0.0%, South_Korea 0.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.24	Denmark 98.0%, Sweden 1.0%, Spain 0.0%, Iceland 0.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.25	Gibraltar 78.0%, Spain 20.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.26	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.27	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.28	Switzerland 85.0%, Slovenia 10.0%, Italy 4.0%, Greece 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.29	Spain 53.0%, Italy 27.0%, Portugal 13.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.30	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.31	Switzerland 63.0%, Germany 15.0%, Spain 8.0%, Luxembourg 3.0%, Italy 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.32	Portugal 42.0%, Spain 31.0%, Switzerland 11.0%, Luxembourg 4.0%, France 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.33	Italy 64.0%, United Kingdom 18.0%, Germany 6.0%, Switzerland 5.0%, Iceland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.34	Netherlands 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.35	Denmark 58.0%, Sweden 32.0%, Israel 7.0%, Finland 1.0%, Spain 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.36	Netherlands 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.37	Belgium 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.38	Netherlands 94.0%, Austria 2.0%, Sweden 1.0%, Spain 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.39	Ireland 57.0%, Denmark 29.0%, United Kingdom 6.0%, Australia 3.0%, Spain 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.40	Netherlands 81.0%, Denmark 9.0%, Spain 5.0%, Belgium 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.41	Sweden 55.0%, Denmark 41.0%, Norway 2.0%, United Kingdom 1.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.42	Denmark 99.0%, Israel 1.0%, Sweden 0.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.43	Switzerland 72.0%, Germany 17.0%, Spain 5.0%, Austria 3.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.44	Switzerland 80.0%, Italy 5.0%, Germany 4.0%, Netherlands 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.45	Iceland 100.0%, Peru 0.0%, Switzerland 0.0%, Denmark 0.0%, Sweden 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.46	Denmark 59.0%, Sweden 40.0%, Croatia 0.0%, United Kingdom 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.47	United Kingdom 97.0%, Turkey 2.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.48	United Kingdom 100.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.49	Spain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.50	Spain 40.0%, Netherlands 21.0%, United Kingdom 20.0%, Germany 8.0%, Denmark 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.51	Switzerland 43.0%, Italy 20.0%, United Kingdom 15.0%, Spain 6.0%, Denmark 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.52	Portugal 35.0%, United Kingdom 26.0%, Germany 18.0%, Luxembourg 4.0%, Netherlands 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.53	Spain 31.0%, Italy 23.0%, United Kingdom 16.0%, United States of America 9.0%, Switzerland 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.54	United Kingdom 84.0%, Ireland 15.0%, Netherlands 1.0%, France 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.55	United Kingdom 76.0%, Ireland 21.0%, Italy 1.0%, Switzerland 1.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.56	United Kingdom 91.0%, Ireland 8.0%, Portugal 0.0%, Cyprus 0.0%, Sweden 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.57	United Kingdom 99.0%, France 0.0%, Ireland 0.0%, New_Zealand 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.58	United Kingdom 92.0%, Ireland 7.0%, Switzerland 1.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.59	Ireland 88.0%, United Kingdom 7.0%, Iceland 2.0%, Belgium 2.0%, Malta 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.60	Lithuania 72.0%, Denmark 16.0%, Latvia 3.0%, Norway 3.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.61	Spain 95.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.62	Germany 77.0%, Netherlands 10.0%, Switzerland 9.0%, Lithuania 2.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.63	United Kingdom 100.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.64	Ireland 82.0%, Switzerland 9.0%, Denmark 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.65	United Kingdom 100.0%, France 0.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.66	Ireland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.67	Ireland 96.0%, United Kingdom 2.0%, Australia 1.0%, Belgium 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.68	Ireland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.69	United Kingdom 98.0%, Spain 1.0%, Netherlands 0.0%, Norway 0.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.70	Denmark 99.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.71	Switzerland 99.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.72	Portugal 75.0%, France 8.0%, Switzerland 7.0%, Luxembourg 5.0%, Spain 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.73	Netherlands 83.0%, Germany 5.0%, Belgium 3.0%, Portugal 3.0%, Sweden 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.74	Spain 40.0%, Netherlands 39.0%, United Kingdom 16.0%, Switzerland 3.0%, Belgium 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.75	Italy 58.0%, Germany 32.0%, Switzerland 4.0%, United Kingdom 2.0%, Bulgaria 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.76	Denmark 91.0%, Spain 4.0%, Sweden 3.0%, France 1.0%, Italy 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.77	Belgium 27.0%, Denmark 20.0%, Germany 13.0%, Luxembourg 13.0%, Netherlands 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.78	France 96.0%, Germany 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.79	Lithuania 48.0%, Latvia 34.0%, Denmark 9.0%, Sweden 3.0%, Estonia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.80	Sweden 58.0%, Norway 23.0%, Denmark 18.0%, Switzerland 0.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.81	Germany 39.0%, Netherlands 32.0%, United Kingdom 7.0%, Denmark 5.0%, France 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.82	Sweden 69.0%, Denmark 13.0%, United Kingdom 12.0%, Norway 3.0%, Finland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.83	Italy 62.0%, Germany 17.0%, Croatia 12.0%, Netherlands 2.0%, Sweden 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.84	United Kingdom 92.0%, Italy 4.0%, Switzerland 1.0%, Germany 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.85	Portugal 61.0%, Switzerland 19.0%, Luxembourg 13.0%, France 4.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.86	Germany 49.0%, Denmark 31.0%, Sweden 16.0%, Switzerland 1.0%, Austria 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.87	United Kingdom 94.0%, France 1.0%, Germany 1.0%, Canada 1.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.88	Italy 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.177.89	Switzerland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.178	Democratic Republic of the Congo 60.0%, France 20.0%, South_Africa 4.0%, Hong_Kong 4.0%, Malaysia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.179	Denmark 89.0%, United Kingdom 5.0%, United States of America 3.0%, Kenya 1.0%, Israel 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.180	Romania 80.0%, United Kingdom 10.0%, United States of America 5.0%, Switzerland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.181	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.182	Spain 99.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.183		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.184	India 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.185		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.186		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.187	Poland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.188	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.189	United States of America 62.0%, Mexico 36.0%, Guatemala 1.0%, Aruba 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.190	Netherlands 92.0%, United Kingdom 2.0%, United States of America 2.0%, Iceland 1.0%, Belgium 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.191		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.192	Equatorial_Guinea 99.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.193		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.194	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.195	Brazil 34.0%, United_Arab_Emirates 21.0%, India 15.0%, Uruguay 13.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.196		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.197		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.198	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.199	United States of America 91.0%, Israel 4.0%, Spain 1.0%, Denmark 1.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.200		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.201	United Kingdom 95.0%, Egypt 1.0%, United States of America 1.0%, Australia 1.0%, Portugal 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.202		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.203	Costa_Rica 50.0%, Panama 17.0%, United States of America 11.0%, France 6.0%, Canada 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.204		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.205	Peru 98.0%, Israel 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.206	United States of America 100.0%, India 0.0%, Germany 0.0%, Mexico 0.0%, South_Korea 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.207		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.208	France 86.0%, United Kingdom 14.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.209		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.210	India 88.0%, Japan 3.0%, United Kingdom 3.0%, United States of America 2.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.211	Luxembourg 50.0%, Belgium 32.0%, France 15.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.212	Brazil 71.0%, Argentina 10.0%, France 7.0%, Germany 7.0%, Belgium 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.213	Poland 55.0%, Germany 10.0%, Luxembourg 8.0%, United Kingdom 7.0%, United States of America 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.214	Democratic Republic of the Congo 47.0%, Switzerland 21.0%, Republic_of_the_Congo 9.0%, Uganda 6.0%, Belgium 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.214.1	Republic_of_the_Congo 75.0%, France 22.0%, Switzerland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.214.2	Belgium 48.0%, Switzerland 20.0%, France 17.0%, Republic_of_the_Congo 3.0%, Indonesia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.214.3	Belgium 39.0%, France 20.0%, Switzerland 15.0%, Mayotte 10.0%, Spain 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.214.4	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.215	United Kingdom 99.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.216		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.217		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.218	Denmark 53.0%, United Kingdom 19.0%, Germany 9.0%, Turkey 9.0%, Switzerland 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.219	Suriname 82.0%, France 8.0%, Netherlands 3.0%, Belgium 3.0%, China 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.220	Netherlands 48.0%, United Kingdom 27.0%, France 11.0%, Canada 3.0%, Reunion 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.221	Netherlands 20.0%, Germany 17.0%, Denmark 14.0%, Belgium 11.0%, Sweden 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.221.1	United Kingdom 96.0%, Germany 1.0%, Belgium 1.0%, Slovenia 1.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.221.2	Germany 95.0%, Israel 3.0%, Luxembourg 1.0%, United Kingdom 1.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.221.3	Denmark 99.0%, Germany 0.0%, Switzerland 0.0%, Netherlands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.221.4	Belgium 54.0%, Luxembourg 42.0%, Germany 2.0%, Netherlands 1.0%, Poland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.222	United Kingdom 90.0%, Germany 4.0%, Switzerland 1.0%, India 1.0%, Uganda 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.223	United Kingdom 73.0%, Spain 18.0%, Netherlands 2.0%, Ecuador 2.0%, Poland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.224	Austria 95.0%, Portugal 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.225	United Kingdom 91.0%, France 3.0%, Senegal 1.0%, Ecuador 1.0%, Italy 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.226		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.227	Sweden 94.0%, Turkey 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.228		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.229	United Kingdom 83.0%, United States of America 10.0%, Ireland 2.0%, Mexico 2.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.230		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.232	United States of America 90.0%, United Kingdom 6.0%, Mexico 3.0%, Ireland 1.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.233	United States of America 99.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.234	United States of America 99.0%, Japan 0.0%, Canada 0.0%, United Kingdom 0.0%, Costa_Rica 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.235	United Kingdom 100.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.236	Italy 25.0%, Switzerland 25.0%, United States of America 18.0%, United Kingdom 9.0%, Germany 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.237	South_Africa 99.0%, Australia 1.0%, Lesotho 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.238	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.239	United States of America 96.0%, Mexico 2.0%, Canada 0.0%, New_Zealand 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.240	United States of America 96.0%, Canada 2.0%, United Kingdom 1.0%, Germany 0.0%, Bahamas 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.240.1	Aruba 50.0%, Curaçao 37.0%, Netherlands 8.0%, Canada 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.240.2	United Kingdom 97.0%, Canada 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.241	United States of America 93.0%, Mexico 5.0%, Australia 0.0%, Malaysia 0.0%, Israel 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.242	Norway 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.243	United States of America 96.0%, Mexico 2.0%, Canada 0.0%, Northern_Mariana_Islands 0.0%, Sweden 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.243.1	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.244		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.245	United States of America 71.0%, Mexico 13.0%, India 10.0%, Turkey 3.0%, Malaysia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.246		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.247	India 90.0%, United States of America 4.0%, Argentina 2.0%, France 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.248	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.249	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.250	United Kingdom 97.0%, Singapore 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.251	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.252	United Kingdom 97.0%, Australia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.253		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.254	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.255		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.256	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.257		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258	Germany 20.0%, United Kingdom 19.0%, Denmark 17.0%, Switzerland 6.0%, Sweden 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.2	Ireland 86.0%, United Kingdom 14.0%, Norway 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.3	United Kingdom 79.0%, Ireland 7.0%, Germany 5.0%, Romania 3.0%, Spain 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.4	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.5	United Kingdom 99.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.6	United Kingdom 94.0%, Germany 4.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.7	United Kingdom 99.0%, Italy 0.0%, Germany 0.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.8		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.9	Denmark 99.0%, Australia 1.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.10	United Kingdom 99.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.11	Denmark 98.0%, Germany 1.0%, Luxembourg 0.0%, Switzerland 0.0%, Belgium 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.12	United Kingdom 94.0%, Czech_Republic 2.0%, Germany 2.0%, Singapore 1.0%, Finland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.13		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.14	Italy 76.0%, Germany 13.0%, Switzerland 8.0%, Croatia 1.0%, Netherlands 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.15	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.16	Denmark 93.0%, Switzerland 4.0%, Spain 3.0%, Iceland 0.0%, Austria 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.17	Slovenia 70.0%, Germany 9.0%, Switzerland 9.0%, Sweden 5.0%, Austria 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.18	Netherlands 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.19	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.20	Luxembourg 46.0%, Portugal 20.0%, Belgium 20.0%, India 7.0%, Netherlands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.21	Netherlands 94.0%, Belgium 2.0%, Germany 2.0%, Poland 1.0%, Mexico 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.22	Sweden 79.0%, Denmark 18.0%, Iceland 1.0%, United Kingdom 1.0%, Germany 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.23	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.258.24	Germany 70.0%, Italy 30.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.259		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.260	Saudi_Arabia 77.0%, Germany 11.0%, Switzerland 7.0%, India 2.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.261		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.262		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.263	Denmark 94.0%, United States of America 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.264	United States of America 80.0%, Finland 8.0%, Denmark 3.0%, Japan 3.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.264.1	Russia 47.0%, Germany 16.0%, Austria 11.0%, Singapore 5.0%, Iceland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.265	United States of America 94.0%, Canada 5.0%, Thailand 0.0%, Rwanda 0.0%, France 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.266		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.267	United States of America 98.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.268	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.269		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.270	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.271		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.272		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.273	France 90.0%, Cote_d'Ivoire 5.0%, Republic_of_the_Congo 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.274	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.275		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.276	United States of America 93.0%, Italy 2.0%, United Kingdom 2.0%, France 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.277	Portugal 41.0%, United Kingdom 34.0%, Iceland 9.0%, France 6.0%, Belgium 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.278		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.279	Canada 100.0%, United States of America 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.280	United States of America 85.0%, Iceland 9.0%, India 1.0%, Italy 1.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.281	Bahrain 82.0%, France 9.0%, United Kingdom 7.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.282	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.283		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.284	United States of America 95.0%, Senegal 2.0%, France 2.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.285	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.286		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.287	United States of America 97.0%, Switzerland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.288		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.289	United States of America 99.0%, Australia 1.0%, Togo 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.290		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.291	Costa_Rica 88.0%, United States of America 11.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.292	Gambia 93.0%, United States of America 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.293	United States of America 81.0%, Turkey 7.0%, United Kingdom 7.0%, New_Zealand 3.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.294	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.295		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.296		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.297		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.297.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.298	United States of America 94.0%, Japan 5.0%, Canada 1.0%, Australia 0.0%, Peru 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.299		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.300		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.301	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.302	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.303		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.304	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.305	United States of America 99.0%, Canada 0.0%, Latvia 0.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.306	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.307		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.308	United States of America 93.0%, Canada 4.0%, Ecuador 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.309	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.310	Netherlands 93.0%, Israel 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.311	United States of America 98.0%, Canada 1.0%, Sweden 0.0%, Japan 0.0%, Denmark 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.312		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.313	United States of America 98.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.314	United States of America 85.0%, Canada 8.0%, Iceland 2.0%, New_Zealand 1.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.315	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.316	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.317		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.318	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.319	United States of America 67.0%, Australia 31.0%, Canada 1.0%, Mexico 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.320	United States of America 97.0%, Australia 1.0%, Mexico 1.0%, Norway 1.0%, Russia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.321	United Kingdom 44.0%, Belgium 41.0%, Chile 7.0%, Spain 4.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.322		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.323	United States of America 91.0%, Mexico 5.0%, Russia 2.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.324	United States of America 99.0%, Northern_Mariana_Islands 0.0%, Mexico 0.0%, Costa_Rica 0.0%, Colombia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.325	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.326	United States of America 95.0%, Spain 2.0%, South_Africa 2.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.327		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.328	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.329	Germany 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.330	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.331		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.332	United States of America 93.0%, Canada 4.0%, Denmark 2.0%, Israel 1.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.333	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.333.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.334	United States of America 98.0%, New_Zealand 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.335	United States of America 99.0%, Finland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.336	United States of America 97.0%, Nigeria 2.0%, Israel 1.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.337	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.338	Australia 95.0%, United States of America 4.0%, Senegal 1.0%, South_Africa 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.339		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.340	United States of America 98.0%, United Kingdom 1.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.341	United States of America 97.0%, Panama 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.342	Sweden 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.343	Denmark 82.0%, United States of America 7.0%, Poland 5.0%, Latvia 2.0%, Germany 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.344	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.345		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.346	United States of America 54.0%, Japan 40.0%, Canada 6.0%, Aruba 0.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.347		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.348	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.349	United States of America 97.0%, Canada 2.0%, Panama 0.0%, Mexico 0.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.350	Canada 89.0%, United States of America 3.0%, Portugal 2.0%, Spain 2.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.350.1	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.351.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.351.2		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.351.3		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.352		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.353		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.355	United States of America 99.0%, Chile 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.356	Spain 21.0%, Netherlands 20.0%, United Kingdom 18.0%, France 16.0%, United States of America 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.357	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.358	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.359	United States of America 93.0%, Canada 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.360	United States of America 94.0%, Japan 2.0%, Finland 1.0%, Ghana 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.361	United States of America 99.0%, Ghana 0.0%, Northern_Mariana_Islands 0.0%, Netherlands 0.0%, Japan 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.362	Israel 84.0%, United States of America 11.0%, United Kingdom 4.0%, Switzerland 1.0%, France 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.362.1	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.362.2	United Kingdom 87.0%, Israel 6.0%, Denmark 4.0%, United States of America 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.363	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.364		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.365		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.366	United States of America 96.0%, Mexico 3.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.367	United Kingdom 34.0%, France 19.0%, Switzerland 12.0%, Denmark 8.0%, Italy 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.368		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.369	United States of America 93.0%, New_Zealand 3.0%, Canada 1.0%, India 1.0%, Mexico 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.369.1	Canada 96.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.370	United States of America 99.0%, India 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.371	United States of America 99.0%, South_Korea 0.0%, Israel 0.0%, Denmark 0.0%, Italy 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.372		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.373		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.374		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.374.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.375	United States of America 99.0%, Germany 0.0%, Mexico 0.0%, Spain 0.0%, Brazil 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.376		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.377	United States of America 93.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.378	United States of America 53.0%, Denmark 40.0%, Switzerland 1.0%, United Kingdom 1.0%, Cuba 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.379	United Kingdom 96.0%, Sierra_Leone 2.0%, Lithuania 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.380	Rwanda 96.0%, Uganda 2.0%, India 1.0%, Switzerland 1.0%, Italy 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.381	South_Africa 97.0%, Zimbabwe 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.382	United States of America 96.0%, India 1.0%, Belgium 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.383	United Kingdom 91.0%, United States of America 5.0%, Netherlands 3.0%, Singapore 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.384	United States of America 98.0%, Australia 0.0%, Vietnam 0.0%, Luxembourg 0.0%, Mexico 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.385	United States of America 97.0%, Northern_Mariana_Islands 2.0%, Colombia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.386		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.387	France 96.0%, Switzerland 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.388	Cote_d'Ivoire 78.0%, Burkina_Faso 22.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.389	United Kingdom 85.0%, Denmark 4.0%, Switzerland 2.0%, Germany 2.0%, Belgium 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.390	United States of America 99.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.391	United Kingdom 91.0%, United States of America 5.0%, Iceland 1.0%, Australia 1.0%, Spain 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.392		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.393	India 42.0%, United States of America 24.0%, Uganda 19.0%, Israel 4.0%, Mexico 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.394		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.395	United Kingdom 74.0%, United States of America 18.0%, Norway 2.0%, Turkey 1.0%, South_Africa 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.396	United States of America 95.0%, Mexico 4.0%, Germany 0.0%, Canada 0.0%, South_Korea 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.397	United States of America 83.0%, Mexico 17.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.398	Denmark 51.0%, Lebanon 9.0%, Germany 8.0%, United Kingdom 7.0%, Saudi_Arabia 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.399	United States of America 97.0%, Mexico 2.0%, Japan 1.0%, India 0.0%, Iceland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.400	United States of America 98.0%, Mexico 1.0%, Canada 0.0%, Japan 0.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.401	United States of America 98.0%, Turkey 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.402	United States of America 99.0%, Mexico 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.403	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.404	United States of America 97.0%, Mexico 2.0%, Canada 0.0%, Germany 0.0%, Greece 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.405	United States of America 67.0%, Australia 21.0%, Canada 5.0%, United Kingdom 4.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.406	Germany 57.0%, Denmark 22.0%, Switzerland 7.0%, Sweden 6.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.407	United Kingdom 96.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.408	United Kingdom 58.0%, Romania 10.0%, Spain 7.0%, Netherlands 6.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.409	United States of America 99.0%, United Kingdom 0.0%, Portugal 0.0%, Switzerland 0.0%, Israel 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.410		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.411	Sri_Lanka 92.0%, United States of America 3.0%, Australia 2.0%, Japan 2.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.412		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.413	United States of America 92.0%, Canada 4.0%, United Kingdom 1.0%, New_Zealand 1.0%, Vietnam 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.414		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.415	United States of America 61.0%, Canada 23.0%, Australia 5.0%, Chile 4.0%, Mexico 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.416	Gambia 34.0%, France 18.0%, Senegal 11.0%, Lithuania 9.0%, Italy 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.416.1	Switzerland 39.0%, United Kingdom 17.0%, Spain 16.0%, France 8.0%, Mayotte 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.417	South_Africa 95.0%, Spain 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.418	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.419		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.420	Colombia 66.0%, United States of America 33.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.421	United States of America 98.0%, Canada 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.422	Canada 97.0%, United States of America 1.0%, Switzerland 0.0%, Germany 0.0%, Ukraine 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.423	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.424	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.425	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.426	United States of America 100.0%, Canada 0.0%, Australia 0.0%, Northern_Mariana_Islands 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.428	Qatar 62.0%, Denmark 32.0%, Australia 2.0%, United States of America 1.0%, Sri_Lanka 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.428.1	Iraq 64.0%, Qatar 36.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.428.2	Qatar 58.0%, Tunisia 18.0%, United Kingdom 8.0%, France 5.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.428.3	Qatar 71.0%, Australia 12.0%, United_Arab_Emirates 7.0%, Germany 2.0%, Jordan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.429.1	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.431	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.432	United States of America 98.0%, India 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.433	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.434	Australia 92.0%, United States of America 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.435	United States of America 99.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.436	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.437	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.438	United Kingdom 27.0%, Denmark 18.0%, United_Arab_Emirates 17.0%, Turkey 16.0%, Luxembourg 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.438.1	Canada 91.0%, United States of America 7.0%, United_Arab_Emirates 1.0%, United Kingdom 1.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.438.2	Mayotte 82.0%, Reunion 18.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.438.3	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.438.4	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.439	United States of America 66.0%, United Kingdom 22.0%, Canada 8.0%, Finland 1.0%, Norway 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.440		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.441	United Kingdom 30.0%, United States of America 27.0%, Kuwait 14.0%, Denmark 6.0%, India 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.442	United States of America 96.0%, South_Korea 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.443	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.444	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.445	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.446	United States of America 72.0%, Qatar 5.0%, Australia 4.0%, Germany 4.0%, Canada 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.447		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.448	United States of America 97.0%, United Kingdom 2.0%, Finland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.449		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.450	United States of America 61.0%, Canada 37.0%, France 1.0%, Kenya 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.451	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.452	United States of America 97.0%, Ireland 1.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.453	United States of America 99.0%, Canada 1.0%, India 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.454		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.455		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.456	Indonesia 53.0%, Singapore 24.0%, Taiwan 9.0%, Saudi_Arabia 9.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.457		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.457.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.458	India 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.459	Indonesia 65.0%, Japan 8.0%, Singapore 7.0%, Australia 4.0%, Greece 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.460	United Kingdom 98.0%, India 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.461		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.462	Nigeria 69.0%, United Kingdom 16.0%, Cameroon 6.0%, Italy 6.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.463	Finland 95.0%, United States of America 2.0%, Denmark 2.0%, Australia 1.0%, New_Zealand 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.464		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.465	United Kingdom 74.0%, Austria 9.0%, Finland 7.0%, Denmark 4.0%, India 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.466	Egypt 26.0%, Sweden 17.0%, Italy 14.0%, Germany 6.0%, United Kingdom 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.466.1	United States of America 34.0%, United Kingdom 21.0%, United_Arab_Emirates 8.0%, Germany 7.0%, Denmark 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.466.2	Indonesia 69.0%, Singapore 12.0%, Malaysia 5.0%, Japan 4.0%, Australia 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.467	Nigeria 48.0%, Switzerland 38.0%, United Kingdom 14.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.468	Indonesia 46.0%, Singapore 18.0%, Saudi_Arabia 9.0%, India 8.0%, United Kingdom 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.469	United Kingdom 32.0%, Germany 23.0%, Turkey 20.0%, Denmark 9.0%, Switzerland 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.470	Indonesia 71.0%, Singapore 7.0%, South_Korea 6.0%, Japan 5.0%, Turkey 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.471	United Kingdom 67.0%, Pakistan 6.0%, Denmark 6.0%, Norway 6.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.472		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.473	United States of America 77.0%, Switzerland 18.0%, France 3.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.474	Sweden 47.0%, Luxembourg 18.0%, Denmark 17.0%, France 9.0%, Switzerland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.475	Germany 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.476	Cote_d'Ivoire 56.0%, India 22.0%, United States of America 11.0%, Nigeria 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.477		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.478	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.479	United States of America 96.0%, Brazil 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.480	Denmark 46.0%, Sweden 15.0%, Germany 10.0%, United Kingdom 8.0%, Australia 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.481		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.482	Cote_d'Ivoire 33.0%, France 33.0%, Japan 22.0%, Ghana 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.483	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.484		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.485	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.486	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.487	United States of America 98.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.488	Sweden 80.0%, Denmark 20.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.489	United Kingdom 88.0%, Norway 8.0%, United States of America 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.490	Finland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.491	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.492	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.493	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.494	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.495	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.496	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.497	South_Korea 100.0%, Switzerland 0.0%, Japan 0.0%, United States of America 0.0%, Lithuania 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.498	United States of America 83.0%, Denmark 9.0%, Argentina 7.0%, Brazil 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.499	Argentina 79.0%, United States of America 18.0%, Mexico 1.0%, Hong_Kong 1.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.499.1	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.500	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.501	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.502	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.503	United States of America 99.0%, Mexico 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.504	Israel 87.0%, United Kingdom 10.0%, Palestine 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.505	Canada 73.0%, United Kingdom 19.0%, Israel 8.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.506	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.507	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.508	United States of America 98.0%, Mexico 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.509	United States of America 97.0%, Switzerland 2.0%, Canada 1.0%, South_Korea 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.510	Denmark 32.0%, Iceland 16.0%, Sweden 16.0%, Norway 11.0%, United States of America 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.511	United States of America 96.0%, Turkey 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.512		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.513	Austria 72.0%, Germany 11.0%, United States of America 6.0%, Denmark 4.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.514		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.515	United States of America 97.0%, Italy 2.0%, Lithuania 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.516	United States of America 100.0%, France 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.517	United States of America 99.0%, Canada 1.0%, Italy 0.0%, Guadeloupe 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.517.1	Australia 98.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.518	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.519		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.520	Germany 44.0%, Sweden 22.0%, United States of America 11.0%, United Kingdom 7.0%, Romania 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.521	United States of America 95.0%, Canada 4.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.523	United Kingdom 50.0%, Denmark 22.0%, Canada 11.0%, United States of America 4.0%, Australia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.524	Malaysia 66.0%, Singapore 22.0%, United States of America 5.0%, Thailand 2.0%, India 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.526.2	United States of America 100.0%, Denmark 0.0%, Ecuador 0.0%, Japan 0.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.526.3	United States of America 96.0%, Ecuador 1.0%, Luxembourg 1.0%, Belgium 1.0%, Spain 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.527	Estonia 33.0%, Czech_Republic 18.0%, Germany 9.0%, United States of America 7.0%, Finland 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.528	Morocco 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.529	France 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.530	Kenya 78.0%, Germany 7.0%, United States of America 6.0%, Denmark 4.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.531		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.532	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.533	Switzerland 19.0%, Saudi_Arabia 18.0%, Finland 13.0%, United States of America 13.0%, India 10.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.534	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.535	Australia 89.0%, Egypt 6.0%, Colombia 3.0%, Kenya 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.536	Denmark 95.0%, Mexico 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.537	India 97.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.538	India 95.0%, United States of America 1.0%, Germany 1.0%, Russia 1.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.539	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.540	India 92.0%, United States of America 1.0%, Panama 1.0%, Switzerland 1.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.541	United States of America 98.0%, Australia 1.0%, Luxembourg 1.0%, Japan 1.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.542	Spain 97.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.543	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.544	United States of America 85.0%, Republic_of_the_Congo 8.0%, Canada 2.0%, Brazil 2.0%, France 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.545	New_Zealand 50.0%, United States of America 20.0%, Mexico 5.0%, Poland 5.0%, Germany 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.546	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.547	Panama 48.0%, Canada 42.0%, Peru 5.0%, Brazil 2.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.548	India 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.549	Kenya 71.0%, United Kingdom 27.0%, Canada 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.550	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.551	United States of America 93.0%, Mexico 5.0%, India 1.0%, United Kingdom 1.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.552	United States of America 54.0%, Canada 30.0%, Australia 13.0%, Iceland 2.0%, Singapore 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.554	United States of America 99.0%, Japan 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.555	Sweden 77.0%, United States of America 9.0%, Russia 7.0%, Denmark 2.0%, United Kingdom 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.556	United States of America 98.0%, France 1.0%, Mexico 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.557	United Kingdom 84.0%, Canada 3.0%, Ireland 1.0%, United States of America 1.0%, South_Korea 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.558	United States of America 69.0%, Mexico 24.0%, United Kingdom 5.0%, South_Korea 1.0%, Kenya 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.559	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.560	India 93.0%, United States of America 3.0%, Germany 2.0%, Bahrain 1.0%, Australia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.561	United States of America 94.0%, Mexico 4.0%, Canada 1.0%, Aruba 0.0%, Peru 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.562	Ireland 67.0%, United Kingdom 23.0%, Netherlands 4.0%, Denmark 2.0%, Pakistan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.563	United Kingdom 44.0%, United States of America 33.0%, Germany 23.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.564	United States of America 99.0%, Canada 0.0%, Mexico 0.0%, New_Zealand 0.0%, South_Africa 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.564.1	Canada 98.0%, United States of America 2.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.565	United States of America 91.0%, Denmark 2.0%, Germany 2.0%, Slovenia 1.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.566	United States of America 69.0%, Brazil 7.0%, Colombia 6.0%, Spain 5.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.567	United States of America 97.0%, Canada 2.0%, Iceland 0.0%, Mexico 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.568	United States of America 99.0%, United Kingdom 0.0%, France 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.569	United States of America 91.0%, India 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.570	United States of America 84.0%, Canada 14.0%, Germany 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.571	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.572	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.573		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.574	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.575	United States of America 92.0%, Spain 3.0%, Bonaire 1.0%, Aruba 1.0%, Switzerland 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.575.1	Spain 82.0%, Germany 5.0%, United States of America 4.0%, Switzerland 3.0%, Sweden 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.576	United States of America 99.0%, Denmark 0.0%, Canada 0.0%, United Kingdom 0.0%, Australia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.577	United States of America 97.0%, Canada 1.0%, Netherlands 0.0%, France 0.0%, United Kingdom 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.578	United States of America 90.0%, France 3.0%, Mexico 3.0%, Canada 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.579	United States of America 98.0%, Australia 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.580	United States of America 97.0%, South_Africa 1.0%, Mexico 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.581	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.582	United States of America 98.0%, Denmark 1.0%, India 0.0%, United Kingdom 0.0%, Mexico 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.585	United States of America 97.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.586	United States of America 99.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.587	United States of America 100.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.588	United States of America 96.0%, Qatar 1.0%, Australia 1.0%, Ireland 0.0%, South_Africa 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.588.1	Romania 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.589	United States of America 99.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.590	United States of America 98.0%, Canada 2.0%, United Kingdom 0.0%, Australia 0.0%, Nigeria 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.591	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.592	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.593	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.594	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.595	United States of America 96.0%, Qatar 3.0%, Canada 0.0%, Singapore 0.0%, Mexico 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.595.1	United States of America 99.0%, Hong_Kong 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.595.2	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.595.3	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.595.4	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.596	United States of America 99.0%, Mexico 0.0%, Canada 0.0%, Australia 0.0%, South_Korea 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.596.1	United States of America 62.0%, Kenya 28.0%, Australia 7.0%, Finland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.597	Spain 35.0%, France 31.0%, Tunisia 6.0%, Algeria 5.0%, Ireland 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.598	Canada 98.0%, United States of America 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.599	United States of America 95.0%, Canada 3.0%, Mexico 1.0%, Qatar 1.0%, Turkey 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.600	Spain 59.0%, Bolivia 16.0%, United States of America 11.0%, Chile 7.0%, Argentina 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.601	United States of America 85.0%, Costa_Rica 8.0%, Cameroon 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.602	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.603	United States of America 99.0%, Cambodia 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.604	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.605	United States of America 99.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.606	United States of America 99.0%, Canada 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.607	United Kingdom 89.0%, United States of America 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.609	United States of America 83.0%, Mexico 15.0%, United Kingdom 0.0%, Indonesia 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.610	Spain 43.0%, United Kingdom 28.0%, United States of America 4.0%, Chile 4.0%, Japan 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.611	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.612	United States of America 83.0%, Canada 14.0%, South_Africa 1.0%, South_Korea 0.0%, Turkey 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.613	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.614	Sweden 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.615	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.618	India 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.619	Germany 33.0%, France 18.0%, Belgium 14.0%, Switzerland 12.0%, Turkey 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.620		This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.621	Colombia 48.0%, United States of America 25.0%, Spain 12.0%, Netherlands 6.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.622	Reunion 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+B.1.623		This variant is not classified as VOC nor VOI according to pangolin database	-
+C.1	South_Africa 94.0%, Zambia 3.0%, United States of America 1.0%, Mozambique 1.0%, Zimbabwe 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.1.1	Mozambique 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.2	South_Africa 40.0%, Zimbabwe 38.0%, Denmark 8.0%, United Kingdom 8.0%, Australia 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.2.1	Aruba 72.0%, United States of America 13.0%, Curaçao 10.0%, Netherlands 3.0%, Zimbabwe 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.3	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.4	Peru 93.0%, Turkey 3.0%, Republic of Serbia 1.0%, Switzerland 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.5	Switzerland 91.0%, Luxembourg 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.6	South_Africa 80.0%, Malawi 20.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.7	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.8	Canada 97.0%, Democratic Republic of the Congo 3.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.9	South_Africa 97.0%, United Kingdom 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.10	Poland 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.11	United Kingdom 35.0%, Peru 20.0%, Chile 16.0%, Belgium 4.0%, Denmark 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.12	New_Zealand 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.13	Peru 85.0%, United States of America 12.0%, Japan 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.14	Peru 92.0%, Japan 2.0%, Brazil 1.0%, Democratic Republic of the Congo 1.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.15		This variant is not classified as VOC nor VOI according to pangolin database	-
+C.16	France 18.0%, Portugal 15.0%, Angola 14.0%, United States of America 12.0%, Switzerland 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.17	Egypt 92.0%, India 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.18	Italy 90.0%, Switzerland 7.0%, Germany 1.0%, Denmark 1.0%, Sweden 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.19	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.20	Switzerland 83.0%, Denmark 8.0%, Germany 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.21	Spain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.22	Argentina 79.0%, Peru 21.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.23	United States of America 90.0%, Pakistan 4.0%, Mexico 2.0%, Denmark 2.0%, Peru 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.25	Peru 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.26	Chile 83.0%, Argentina 17.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.27	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.28	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.29	Chile 89.0%, Denmark 6.0%, Russia 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.30	United Kingdom 98.0%, Germany 1.0%, Austria 0.0%, Italy 0.0%, Belgium 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.30.1	Denmark 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.31	United States of America 89.0%, Canada 9.0%, Japan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.32	Peru 97.0%, Denmark 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.33	Peru 91.0%, Japan 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.34	Canada 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.35	Germany 21.0%, United Kingdom 19.0%, Switzerland 13.0%, Denmark 12.0%, Sweden 6.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.36	Egypt 24.0%, United Kingdom 17.0%, United States of America 15.0%, Germany 12.0%, Denmark 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.36.1	Canada 97.0%, United States of America 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+C.36.2	Switzerland 86.0%, Norway 7.0%, Sweden 4.0%, Germany 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+D.2	Australia 100.0%, United States of America 0.0%, Germany 0.0%, Bangladesh 0.0%, Latvia 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+D.3	Australia 99.0%, Bangladesh 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+D.4	United Kingdom 80.0%, Ireland 20.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+D.5	Sweden 58.0%, Denmark 40.0%, United Kingdom 1.0%, Bangladesh 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+G.1	United Kingdom 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+K.1	South_Korea 97.0%, Russia 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+K.2	Russia 90.0%, Japan 10.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+K.3	Norway 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+L.1		This variant is not classified as VOC nor VOI according to pangolin database	-
+L.2	Netherlands 77.0%, Germany 19.0%, Belgium 4.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+L.3	Nigeria 30.0%, Germany 14.0%, Switzerland 13.0%, United Kingdom 13.0%, United States of America 11.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+L.4	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+M.1	Israel 96.0%, Turkey 2.0%, Denmark 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+M.2	Switzerland 86.0%, Iceland 7.0%, United Kingdom 7.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+M.3	United Kingdom 91.0%, Russia 9.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.1	United States of America 97.0%, Brazil 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.2	France 46.0%, Suriname 31.0%, Iceland 8.0%, Chile 8.0%, Spain 8.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.3	Argentina 99.0%, Hong_Kong 1.0%, Chile 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.4	Chile 95.0%, Brazil 2.0%, Peru 1.0%, Switzerland 0.0%, Canada 0.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.5	Argentina 75.0%, United States of America 15.0%, Spain 4.0%, United Kingdom 2.0%, Germany 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.6	Chile 98.0%, Japan 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.7	Uruguay 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.8	Kenya 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.9	Brazil 90.0%, India 3.0%, Germany 2.0%, Ireland 2.0%, United States of America 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+N.10		This variant is not classified as VOC nor VOI according to pangolin database	-
+P.1.1	United States of America 51.0%, Brazil 18.0%, Italy 9.0%, Germany 8.0%, France 5.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+P.1.2	Spain 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+R.1	Japan 56.0%, United States of America 34.0%, Germany 3.0%, Sweden 2.0%, Austria 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+R.2	United States of America 100.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+S.1	Latvia 89.0%, Finland 7.0%, United Kingdom 3.0%, Estonia 1.0%, Ireland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+U.1	United Kingdom 99.0%, Lithuania 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+U.2	Denmark 93.0%, Lithuania 5.0%, Sweden 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+U.3	Latvia 86.0%, Norway 14.0%, United Kingdom 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+V.1	United Kingdom 64.0%, Ireland 33.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+V.2	United Kingdom 97.0%, Ireland 3.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+W.1	United States of America 44.0%, France 31.0%, Aruba 6.0%, Portugal 4.0%, Netherlands 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+W.2	Netherlands 93.0%, Belgium 5.0%, Germany 1.0%, Luxembourg 1.0%, Norway 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+W.3	United Kingdom 99.0%, Switzerland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+W.4	United Kingdom 98.0%, Switzerland 2.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+Y.1	Portugal 84.0%, Switzerland 8.0%, United Kingdom 4.0%, Netherlands 1.0%, Ireland 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-
+Z.1	United Kingdom 71.0%, Spain 11.0%, Latvia 9.0%, Germany 5.0%, Denmark 1.0%	This variant is not classified as VOC nor VOI according to pangolin database	-

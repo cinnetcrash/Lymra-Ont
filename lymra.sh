@@ -1,8 +1,12 @@
 !#/bin/bash
 
+
 # This is the main script file, do not change it if you don't know what you are doing.
 # Gültekin Ünal, 2022
 
+
+# Enter kraken database location
+# Demunizer
 
 # QC Step
 mkdir QC_RAW_READS
@@ -18,6 +22,12 @@ for i in *fastq; do echo "${i}: $(grep "@" $i | wc -l) reads"; done
 # Read Trimming for Nanopore
 mkdir trimmed_reads
 porechop -i ${1}.fastq -o trimmed_reads/$1.fastq --format fastq -t 4
+
+
+# FASTQ Stats
+
+python3 
+
 
 #spades.py --careful -o $1_SPADES_OUT -1 trimmed_reads/$1.fastq 
 #CHECK THIS CODE!
