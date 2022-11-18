@@ -1,8 +1,19 @@
 !#/bin/bash
 
+# This is the main script file, do not change it if you don't know what you are doing.
+# Gültekin Ünal, 2022
+
+
 # QC Step
 mkdir QC_RAW_READS
 fastqc data/* -o QC_RAW_READS
+
+myreads=*.fastq
+RAWREADS_2=*2.fastq
+mv $RAWREADS_1 $RAWREADS_2 01_raw
+cd 01_raw
+for i in *fastq; do echo "${i}: $(grep "@" $i | wc -l) reads"; done
+
 
 # Read Trimming for Nanopore
 mkdir trimmed_reads

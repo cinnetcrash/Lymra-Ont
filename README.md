@@ -1,7 +1,7 @@
 ![Book logo](/contents/intro.png)
 
 
-# Comparative-Analysis-of-Bacterial-genomes
+# Monkeypox Metagenomics Analysis with ONT Reads
 This repo contains analysis workflow for Oxford Nanopore reads.
 
 
