@@ -48,5 +48,5 @@ pip install -r pip-requirements.txt
 ```
 
 ### Citation
-Gültekin Ünal, 2022.  Lymra Oxford Nanopore Monkeypox Anaylsis Tool https://github.com/vappiah/Lymra-Ont
+Gültekin Ünal, 2022.  Lymra Oxford Nanopore Monkeypox Anaylsis Tool https://github.com/cinnetcrash/Lymra-Ont
 
