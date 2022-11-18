@@ -20,8 +20,8 @@ conda config --add channels defaults\
 ### Download the Analysis pipeline
 
 ```
-git clone https://github.com/vappiah/Lymra-Ont.git
-```
+git clone https://github.com/cinnetcrash/Lymra-Ont.git
+
 
 ### Change directory to the dowloaded folder
 
