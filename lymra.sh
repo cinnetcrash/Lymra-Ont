@@ -10,7 +10,7 @@ fastqc data/* -o QC_RAW_READS
 
 myreads=*.fastq
 RAWREADS_2=*2.fastq
-mv $RAWREADS_1 $RAWREADS_2 01_raw
+mv $myreads 01_raw
 cd 01_raw
 for i in *fastq; do echo "${i}: $(grep "@" $i | wc -l) reads"; done
 
@@ -24,8 +24,18 @@ porechop -i ${1}.fastq -o trimmed_reads/$1.fastq --format fastq -t 4
 
 
 # Mapping all reads to the reference genome
-minimap2
-
+minimap2 -x map-ont -d coronovirus.mmi reference_genom.fasta
+samtools view -bS sample1.sam > sample1.bam
+samtools sort sample1.bam -o sample1.sorted.bam
+samtools index sample1.sorted.bam
+samtools view -q 10 -c sample1.sorted.bam
+bcftools mpileup -f sars-cov-2_genome.fasta sample1.sorted.marked.bam | bcftools call -mv -Ob -o sample1.bcf
+freebayes –f sars-cov-2_genome.fasta sample1.sorted.marked.bam > sample1.vcf
+vcftools --vvcf sample1.vcf --minQ 20 --recode --recode-INFO-all --out sample1_q20
+bcftools view -i '%QUAL>=2' sample1.vcf
+lofreq call -f sars-cov-2_genome.fasta -o sample1.vcf sample1.sorted.marked.bam 
+samtools mpileup -uf reference.fasta mapped_reads.bam | bcftools view -cg - | vcfutils vcf2fq  > consensus.fasta
+samtools mpileup -aa -A -d 0 -Q 0 <input.bam> | ivar consensus -p <prefix> 
 
 # Polishing draft assembly with Homopolish 
 
@@ -49,4 +59,5 @@ echo "POLISING DRAFT ASSEMBLY"
 
 echo "All processes done"
 
+busco -f -c 20 -m genome -i Desktop/Monkeypox_Paper/Polished/002_BeratK_homopolished.fasta -o 002_busco --auto-lineage-prok
 
