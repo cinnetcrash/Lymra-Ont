@@ -13,7 +13,6 @@ dependencies:
   - minimap2
   - ragtag
   - abricate
-  - mlst
   - spades
   - minimap2
   - mummer
@@ -24,7 +23,6 @@ dependencies:
   - perl-padwalker
   - perl-db-file
   - porechop
-  - sra-tools
   - sickle-trim
   - pip
   - homopolish

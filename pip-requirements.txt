@@ -3,4 +3,5 @@ matplotlib
 matplotlib-venn
 biopython
 dREP
+snipit
 

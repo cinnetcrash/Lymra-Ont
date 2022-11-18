@@ -1,11 +1,19 @@
-#!/bin/bash
+!#/bin/bash
 
+
+mkdir QC_RAW_READS
+fastqc data/* -o QC_RAW_READS
+
+
+mkdir trimmed_reads
+porechop -i ${1}.fastq -o trimmed_reads/$1.fastq --format fastq -t 4
+
+
+#spades.py --careful -o $1_SPADES_OUT -1 trimmed_reads/$1.fastq 
+#CHECK THIS CODE!
+
+./polish.sh
 #polishing illumina draft assembly using pilon
-
-conda deactivate
-conda activate homopolish
-cd /home/cinnet/homopolish
-
 
 mkdir polished_assembly
 
@@ -14,7 +22,7 @@ threads=4
 
 currdir=$(pwd)
 pilon=$currdir/apps/pilon.jar
-reads=$currdir/trimmed_reads/P7741_R1.fastq.gz
+read1=$currdir/trimmed_reads/P7741_R1.fastq.gz
 read2=$currdir/trimmed_reads/P7741_R2.fastq.gz  
 
 
@@ -58,5 +66,43 @@ java -Xmx40G -jar $pilon --genome pilon_stage3.fasta --fix all --changes --frags
 cp pilon_stage4.fasta ../P7741.polished.fasta
 cd ../
 cat polishing_process/pilon_stage4.changes
+
+
+./reorder_contigs.sh
+
+#reference genome
+ref=genomes/Liflandii.fasta
+
+ragtag.py scaffold $ref P7741.polished.fasta -o P7741_reordered
+
+
+#extract the reordered contig with a custom python script
+#the scripts accept name of the ragtag file containing the reordered contigs and accession number for the reference genome
+#accession number is found in the first line of the reference genome fasta file
+
+python extract_reordered.py P7741_reordered/ragtag.scaffolds.fasta NC_020133.1
+
+
+./annotate.sh
+
+#Genome annotation using prokka
+
+#if you have more cpus you can increase the number of cpus
+cpus=4
+
+prokka --cpus $cpus --kingdom Bacteria --locustag P7741 --outdir P7741_annotation --prefix P7741 --addgenes P7741.reordered.fasta
+./get_pseudo.pl P7741_annotation/P7741.faa | tee P7741_annotation/P7741.pseudo.txt
+
+./dendogram.sh
+
+mkdir tmp_fastas
+cp genomes/*.fasta tmp_fastas
+cp P7741.reordered.fasta tmp_fastas/
+mkdir dendogram
+dRep compare dendogram -g tmp_fastas/*.fasta
+rm -fr tmp_fastas
+
+echo "dendogram generated"
+echo "output: ./dendogram"
 
 
