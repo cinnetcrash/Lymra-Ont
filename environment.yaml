@@ -1,4 +1,4 @@
-name: monkeypox-lymra
+name: Lymra-Ont
 channels:
   - conda-forge
   - bioconda
