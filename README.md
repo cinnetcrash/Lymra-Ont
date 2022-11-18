@@ -1,3 +1,6 @@
+![Book logo](/contents/intro.png)
+
+
 # Comparative-Analysis-of-Bacterial-genomes
 This repo contains analysis workflow for Oxford Nanopore reads.
 
