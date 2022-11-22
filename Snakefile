@@ -1,8 +1,9 @@
 rule map_reads:
     input:
-        "data/genome.fa"
+        "data/monkeypox.fa",
+        "../{sample}.fastq"
     output:
-        "mapped/{output}.bam"
+        "mapped/{sample}.bam"
     conda:
         "envs/mapping.yaml"
     shell:
@@ -12,4 +13,8 @@ rule sort:
     input:
         "mapped/{sample}.bam"
     output:
-        ""
+        "mapped/{sample}.sorted.bam"
+    conda:
+        "envs/mapping.yaml"
+    shell: 
+        "samtools sort -o {output} {input}"
