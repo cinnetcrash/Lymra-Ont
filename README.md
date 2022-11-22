@@ -29,7 +29,7 @@ git clone https://github.com/cinnetcrash/Lymra-Ont.git
 cd Lymra-Ont
 ```
 
-### Create conda environment. All the packages are listed in the environment.yaml file. 
+### Create conda environment. All the packages are listed in the environment.yaml file 
 
 ```
 conda env create -f environment.yaml
@@ -48,6 +48,16 @@ chmod +x *.{py,sh}
 ### Install python packages using pip
 ```
 pip install -r pip-requirements.txt
+```
+
+### To use snakemake instead of conda first install snakemake environment
+```
+mamba create -c conda-forge -c bioconda -n snakemake snakemake
+conda activate snakemake
+```
+### Copy your read files to the data/ folder then execute the snakemake command
+```
+snakemake --use-conda <filename> 
 ```
 
 ### Use this citation to cite my efforts
