@@ -2,14 +2,20 @@ from glob import glob
 import pandas as pd
 shell.executable("/bin/bash")
 
+configfile: "config.yaml"
 
-SAMPLES = ["A", "B", "C"]
+
+rule all:
+    "busco_output/{sample}_busco.txt"
+
+
+
 
 rule porechop_trim:
     input:
         "data/samples/{sample}.fastq"
     output:
-        "trimmed/{sample}.trimmed.fastq"
+        temp("trimmed/{sample}.trimmed.fastq")
     conda: 
         "envs/porechop.yaml"
     shell: 
@@ -19,7 +25,7 @@ rule index_reference:
     input:
         "data/monkeypox.fa"
     output:
-        "mapped/reference/monkeypox.mmi"
+        temp("mapped/reference/monkeypox.mmi")
     conda:
         "envs/mapping.yaml"
     shell:
@@ -43,14 +49,14 @@ rule medaka:
     conda:
         "envs/medaka.yaml"
     shell:
-        ""
+        "medaka_consensus -f -i {input} -d {input.prev_fa} -o assemblies/{wildcards.sample}_{wildcards.assembly}+medaka -t {threads}"
 
 
 rule mapping_reads:
     input:
         "trimmed/{sample}.trimmed.fastq"
     output:
-        "mapped/{sample}.sam"
+        temp("mapped/{sample}.sam")
     conda:
         "envs/mapping.yaml"
     shell:
@@ -60,7 +66,7 @@ rule sam_to_bam:
     input:
         "mapped/{sample}.sam"
     output:
-        "mapped/{sample}.bam"
+        temp("mapped/{sample}.bam")
     conda:
         "envs/mapping.yaml"
     shell:
@@ -133,8 +139,8 @@ rule busco:
     input:
         "consensus/{sample}.fa"
     output:
-        ""
+        "busco_output/{sample}_busco.txt"
     conda:
         "envs/busco.yaml"
     shell:
-        "busco -f -c 20 -m genome -i input -o {sample}_busco --auto-lineage-prok"
+        "busco -f -c 20 -m genome -i input -o {output} --auto-lineage-prok"
