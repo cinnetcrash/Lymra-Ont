@@ -2,33 +2,14 @@ name: Lymra-Ont
 channels:
   - conda-forge
   - bioconda
-  - daler
   - defaults
 dependencies:
-  - samtools
-  - bwa
-  - bowtie2
-  - sickle
-  - fastqc
-  - python=3
-  - spades
   - quast
   - porechop
-  - sickle-trim
   - pip
   - homopolish
-  - pyvcf
-  - pandas
-  - biopython
-  - seqtk
-  - kraken2
-  - seqkit
   - pip:
-    - numpy
-    - matplotlib
-    - matplotlib-venn
     - biopython
-    - dREP
     - snipit
       
 
