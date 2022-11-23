@@ -4,12 +4,24 @@ channels:
   - bioconda
   - defaults
 dependencies:
-  - quast
+  - samtools
+  - bcftools
+  - freebayes
+  - bioconda::flye=2.9
+  - libcuckoo
+  - intervaltree
+  - lemon
+  - minimap2
+  - samtools
+  - bioconda::homopolish>=0.3.3
+  - bioconda::medaka=1.4.3
   - porechop
-  - pip
-  - homopolish
-  - pip:
-    - biopython
-    - snipit
-      
+  - fastp
+pip:
+  - matplotlib
+  - pysam 
+  - python 
+
+
+
 
