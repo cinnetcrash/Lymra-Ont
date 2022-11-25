@@ -1,7 +1,0 @@
-Building DAG of jobs...
-Conda environment envs/conda-kraken2.yaml will be created.
-Conda environment envs/conda-porechop.yaml will be created.
-Conda environment envs/conda-medaka.yaml will be created.
-WorkflowError:
-Failed to open source file /home/cinnet/Desktop/Website/Lymra-Ont/env/conda-homopolish.yaml
-FileNotFoundError: [Errno 2] No such file or directory: '/home/cinnet/Desktop/Website/Lymra-Ont/env/conda-homopolish.yaml'

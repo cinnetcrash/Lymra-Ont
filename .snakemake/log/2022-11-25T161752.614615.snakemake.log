@@ -1,4 +1,0 @@
-Building DAG of jobs...
-WorkflowError:
-Failed to open source file /home/cinnet/Desktop/Website/Lymra-Ont/envs/busco.yaml
-FileNotFoundError: [Errno 2] No such file or directory: '/home/cinnet/Desktop/Website/Lymra-Ont/envs/busco.yaml'

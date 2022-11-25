@@ -1,3 +1,0 @@
-RuleException in line 47 of /home/cinnet/Desktop/Website/Lymra-Ont/Snakefile:
-Conda environments are only allowed with shell, script, notebook, or wrapper directives (not with run or template_engine).
-  File "/home/cinnet/Desktop/Website/Lymra-Ont/Snakefile", line 47, in <module>
