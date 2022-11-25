@@ -1,146 +1,69 @@
-from glob import glob
-import pandas as pd
-shell.executable("/bin/bash")
-
 configfile: "config.yaml"
 
 
 rule all:
     "busco_output/{sample}_busco.txt"
 
-
-
-
 rule porechop_trim:
     input:
         "data/samples/{sample}.fastq"
     output:
-        temp("trimmed/{sample}.trimmed.fastq")
+        pipe("trimmed/{sample}.trimmed.fastq")
     conda: 
         "envs/porechop.yaml"
     shell: 
-        "porechop -i {input} -o {output} -t 3"
+        "porechop -i {input} -o {output} -t 4 --barcode_threshold 60 --barcode_diff 1"
 
-rule index_reference:
+rule kraken2_viral:
     input:
-        "data/monkeypox.fa"
+        trimmed_reads="trimmed/{sample}.trimmed.fastq",
+        database="/../../media/cinnet/PortableSSD1/kraken2_db/human_genome/"
     output:
-        temp("mapped/reference/monkeypox.mmi")
+        report_kraken2="kraken2_reports/{sample}_viral.txt",
+        classified_out="trimmed/{sample}_viral_reads.fastq"
     conda:
-        "envs/mapping.yaml"
+        "envs/kraken2.yaml"
     shell:
-        "minimap2 -x map-ont -d {output} {input} | cp data/monkeypox.fa mapped/reference/"
+        "kraken2 --db {input.database} --report {output.report_kraken2} --classified-out {output.classified_out}"
 
 rule flye:
     input:
-        "data/{sample}.fastq"
+        viral_reads="trimmed/{sample}_viral_reads.fastq",
+        output_dir="assembly/flye/"
     output:
         "assembly/{sample}.fasta"
     conda:
         "envs/flye.yaml"
     shell:
-        "flye --nano-corr {input} --out-dir assembly/ --genome-size 0.2m --meta -t 8"
+        "flye --nano-corr {input.viral_reads} --out-dir {output.output_dir} --genome-size 0.2m --meta -t 8"
 
 rule medaka:
     input:
-        "data/samples/{sample}.fastq"
+        fq="trimmed/{sample}_viral_reads.fastq",
+        reference="data/monkeypox.fa"
     output:
-        "medaka_output/{sample}_medaka.fa"
+        "medaka_output/{sample}_medaka.fasta"
     conda:
         "envs/medaka.yaml"
     shell:
-        "medaka_consensus -f -i {input} -d {input.prev_fa} -o assemblies/{wildcards.sample}_{wildcards.assembly}+medaka -t {threads}"
-
-
-rule mapping_reads:
-    input:
-        "trimmed/{sample}.trimmed.fastq"
-    output:
-        temp("mapped/{sample}.sam")
-    conda:
-        "envs/mapping.yaml"
-    shell:
-        "minimap2 -ax map-ont data/monkeypox.fa {input} > {output}"
-
-rule sam_to_bam:
-    input:
-        "mapped/{sample}.sam"
-    output:
-        temp("mapped/{sample}.bam")
-    conda:
-        "envs/mapping.yaml"
-    shell:
-        "samtools view -S -b {input} > {output}"
-
-rule sort:
-    input:
-        "mapped/{sample}.bam"
-    output:
-        "mapped/{sample}.sorted.bam"
-    conda:
-        "envs/mapping.yaml"
-    shell: 
-        "samtools sort {input} -o {output}"
-
-rule index_bam:
-    input:
-        "mapped/{sample}.sorted.bam"
-    output:
-        "mapped/{sample}.sorted.bam.bai"
-    conda:
-        "envs/mapping.yaml"
-    shell:
-        "samtools index {input} {output}"
-
-rule consensus_generation:
-    input:
-        "mapped/{sample}.sorted.bam"
-    output:
-        "consensus/{sample}.fa"
-    conda:
-        "envs/mapping.yaml"
-    shell:
-        "samtools mpileup -aa -A -Q 10 {input} | ivar consensus -q 8 -m 8 -p {output}"
-
-
-rule bcftools_call:
-    input:
-        fa="data/monkeypox.fa",
-        reads="mapped/{sample}.sorted.bam"
-    output:
-        "calls/{sample}.vcf"
-    conda:
-        "envs/calling.yaml"
-    shell:
-        "freebayes -f {input.fa} -C 5 -F 0.01 -b {input.reads} >{output}"
-
-rule plot_qual:
-    input:
-        "calls/{sample}.vcf"
-    output:
-        plot_pdf="plots/quals.{sample}.pdf"
-    conda:
-        "envs/plot-quals.yaml"
-    script:
-        "scripts/plot-quals.py"
-
+        "medaka_consensus -i {input.fq} -d {input.reference} -o {sample}_medaka_consensus -t 8 -m r941_min_high_g303"
 
 rule homopolish:
     conda: "env/conda-homopolish.yaml"
     input:
-        prev_fa = "consensus/{sample}.fa",
-        ref = "references/{ref}.fa"
+        prev_fa = "consensus/{sample}_medaka.fasta",
+        ref = "data/monkeypox.fa"
     output: 
-        fa = "assemblies/{sample}_{assembly}+homopolish/output_{ref}.fa",
+        fa = "polish/{sample}_homopolish/{sample}_polished.fa"
     shell:
-        "homopolish polish -a {input.prev_fa} -m R9.4.pkl -o polished/{}.fa -l {input.ref}"
+        "homopolish polish -a {input.prev_fa} -m R9.4.pkl -o {output.fa} -l {input.ref}"
 
 rule busco:
     input:
-        "consensus/{sample}.fa"
+        "polish/{sample}_homopolish/{sample}_polished.fa"
     output:
         "busco_output/{sample}_busco.txt"
     conda:
         "envs/busco.yaml"
     shell:
-        "busco -f -c 20 -m genome -i input -o {output} --auto-lineage-prok"
+        "busco -f -c 20 -m genome -i {input} -o {output} --auto-lineage-prok"

@@ -4,4 +4,9 @@ channels:
   - defaults
   - anaconda
 dependencies:
-  - bioconda::medaka=1.4.3
+  - samtools
+  - minimap2
+  - tabix
+  - bgzip
+pip:
+  - medaka
