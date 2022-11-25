@@ -57,7 +57,7 @@ conda activate snakemake
 ```
 ### Copy your read files to the data/ folder then execute the snakemake command
 ```
-snakemake --use-conda <filename> 
+snakemake -s Snakefile --use-conda --cores 12
 ```
 
 ### Use this citation to cite my efforts

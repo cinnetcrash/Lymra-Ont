@@ -6,7 +6,7 @@ rule all:
 
 rule porechop_trim:
     input:
-        "data/samples/{sample}.fastq"
+        "data/samples/{sample}.fastq.gz"
     output:
         pipe("trimmed/{sample}.trimmed.fastq")
     conda: 
