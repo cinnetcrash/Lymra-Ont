@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+busco                1              1              1
+homopolish           1              1              1
+kraken2_viral        1              1              1
+medaka               1              1              1
+porechop_trim        1              1              1
+total                5              1              1
+
+[Fri Nov 25 16:09:07 2022]
+
+group job e8775099-6105-4645-ad79-674ad804ed3d (jobs in lexicogr. order):
+
+    [Fri Nov 25 16:09:07 2022]
+    rule kraken2_viral:
+        input: trimmed/sample_01.trimmed.fastq, /../../media/cinnet/PortableSSD1/kraken2_db/human_genome
+        output: kraken2_reports/sample_01_viral.txt, trimmed/sample_01_viral_reads.fastq
+        jobid: 3
+        reason: Missing output files: trimmed/sample_01_viral_reads.fastq; Input files updated by another job: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+
+    [Fri Nov 25 16:09:07 2022]
+    rule porechop_trim:
+        input: data/samples/sample_01.fastq
+        output: trimmed/sample_01.trimmed.fastq (pipe)
+        jobid: 4
+        reason: Missing output files: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+WorkflowError:
+Error grouping resources in group 'e8775099-6105-4645-ad79-674ad804ed3d': Not enough resources were provided. This error is typically caused by a Pipe group requiring too many resources. Note that resources are summed across every member of the pipe group, except for ['runtime'], which is calculated via max(). Excess Resources:
+	_cores: 2/1

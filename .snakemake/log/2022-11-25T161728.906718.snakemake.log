@@ -1,0 +1,64 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 8
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+busco                1              1              1
+homopolish           1              1              1
+kraken2_viral        1              1              1
+medaka               1              1              1
+porechop_trim        1              1              1
+total                5              1              1
+
+Select jobs to execute...
+[Fri Nov 25 16:17:29 2022]
+
+group job 663b61d8-5baa-4091-a2ae-1e8f71fe8f01 (jobs in lexicogr. order):
+
+    [Fri Nov 25 16:17:29 2022]
+    rule kraken2_viral:
+        input: trimmed/sample_01.trimmed.fastq, /../../media/cinnet/PortableSSD1/kraken2_db/human_genome
+        output: kraken2_reports/sample_01_viral.txt, trimmed/sample_01_viral_reads.fastq
+        jobid: 3
+        reason: Missing output files: trimmed/sample_01_viral_reads.fastq; Input files updated by another job: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+
+    [Fri Nov 25 16:17:29 2022]
+    rule porechop_trim:
+        input: data/samples/sample_01.fastq
+        output: trimmed/sample_01.trimmed.fastq (pipe)
+        jobid: 4
+        reason: Missing output files: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+[Fri Nov 25 16:17:30 2022]
+Error in group job 663b61d8-5baa-4091-a2ae-1e8f71fe8f01:
+    [Fri Nov 25 16:17:30 2022]
+        Error in rule kraken2_viral:
+            jobid: 3
+            input: trimmed/sample_01.trimmed.fastq, /../../media/cinnet/PortableSSD1/kraken2_db/human_genome
+            output: kraken2_reports/sample_01_viral.txt, trimmed/sample_01_viral_reads.fastq
+            conda-env: /home/cinnet/Desktop/Website/Lymra-Ont/.snakemake/conda/bf826d808bef09616c1211580000e28a_
+            shell:
+        kraken2 --db /../../media/cinnet/PortableSSD1/kraken2_db/human_genome trimmed/sample_01.trimmed.fastq--report kraken2_reports/sample_01_viral.txt --classified-out trimmed/sample_01_viral_reads.fastq
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    
+    [Fri Nov 25 16:17:30 2022]
+        Error in rule porechop_trim:
+            jobid: 4
+            input: data/samples/sample_01.fastq
+            output: trimmed/sample_01.trimmed.fastq (pipe)
+            conda-env: /home/cinnet/Desktop/Website/Lymra-Ont/.snakemake/conda/fa0592430fcc8b1da1aa5f85508d3184_
+            shell:
+        porechop -i data/samples/sample_01.fastq -o trimmed/sample_01.trimmed.fastq -t 4 --barcode_threshold 60 --barcode_diff 1
+        (one of the commands exited with non-zero exit code; note that snakemake uses bash strict mode!)
+    
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2022-11-25T161728.906718.snakemake.log

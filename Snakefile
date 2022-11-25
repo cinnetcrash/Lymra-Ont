@@ -24,7 +24,7 @@ rule kraken2_viral:
     conda:
         "envs/kraken2.yaml"
     shell:
-        "kraken2 --db {input.database} --report {output.report_kraken2} --classified-out {output.classified_out}"
+        "kraken2 --db {input.database} {input.trimmed_reads}--report {output.report_kraken2} --classified-out {output.classified_out}"
 
 rule flye:
     input:
@@ -46,12 +46,12 @@ rule medaka:
     conda:
         "envs/medaka.yaml"
     shell:
-        "medaka_consensus -i {input.fq} -d {input.reference} -o {sample}_medaka_consensus -t 8 -m r941_min_high_g303"
+        "medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 8 -m r941_min_high_g303"
 
 rule homopolish:
     conda: "env/conda-homopolish.yaml"
     input:
-        prev_fa = "consensus/{sample}_medaka.fasta",
+        prev_fa = "medaka_output/{sample}_medaka.fasta",
         ref = "data/monkeypox.fa"
     output: 
         fa = "polish/{sample}_homopolish/{sample}_polished.fa"
@@ -64,6 +64,6 @@ rule busco:
     output:
         "busco_output/{sample}_busco.txt"
     conda:
-        "envs/busco.yaml"
+        "envs/porechop.yaml"
     shell:
         "busco -f -c 20 -m genome -i {input} -o {output} --auto-lineage-prok"

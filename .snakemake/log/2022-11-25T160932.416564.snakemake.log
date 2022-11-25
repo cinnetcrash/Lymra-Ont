@@ -1,0 +1,47 @@
+Building DAG of jobs...
+Job stats:
+job              count    min threads    max threads
+-------------  -------  -------------  -------------
+busco                1              1              1
+homopolish           1              1              1
+kraken2_viral        1              1              1
+medaka               1              1              1
+porechop_trim        1              1              1
+total                5              1              1
+
+[Fri Nov 25 16:09:32 2022]
+
+group job 05315635-7e4a-4089-b241-e2c5c9a89f34 (jobs in lexicogr. order):
+
+    [Fri Nov 25 16:09:32 2022]
+    rule kraken2_viral:
+        input: trimmed/sample_01.trimmed.fastq, /../../media/cinnet/PortableSSD1/kraken2_db/human_genome
+        output: kraken2_reports/sample_01_viral.txt, trimmed/sample_01_viral_reads.fastq
+        jobid: 3
+        reason: Missing output files: trimmed/sample_01_viral_reads.fastq; Input files updated by another job: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+
+    [Fri Nov 25 16:09:32 2022]
+    rule porechop_trim:
+        input: data/samples/sample_01.fastq
+        output: trimmed/sample_01.trimmed.fastq (pipe)
+        jobid: 4
+        reason: Missing output files: trimmed/sample_01.trimmed.fastq
+        wildcards: sample=sample_01
+        resources: tmpdir=/tmp
+
+
+[Fri Nov 25 16:09:32 2022]
+rule medaka:
+    input: trimmed/sample_01_viral_reads.fastq, data/monkeypox.fa
+    output: medaka_output/sample_01_medaka.fasta
+    jobid: 2
+    reason: Missing output files: medaka_output/sample_01_medaka.fasta; Input files updated by another job: trimmed/sample_01_viral_reads.fastq
+    wildcards: sample=sample_01
+    resources: tmpdir=/tmp
+
+RuleException in rule medaka  in line 40 of /home/cinnet/Desktop/Website/Lymra-Ont/Snakefile:
+NameError: The name 'sample' is unknown in this context. Did you mean 'wildcards.sample'?, when formatting the following:
+medaka_consensus -i {input.fq} -d {input.reference} -o {sample}_medaka_consensus -t 8 -m r941_min_high_g303

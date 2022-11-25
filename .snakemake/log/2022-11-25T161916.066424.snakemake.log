@@ -1,0 +1,16 @@
+Building DAG of jobs...
+Creating conda environment envs/medaka.yaml...
+Downloading and installing remote packages.
+CreateCondaEnvironmentException:
+Could not create conda environment from /home/cinnet/Desktop/Website/Lymra-Ont/envs/medaka.yaml:
+Command:
+mamba env create --quiet --file "/home/cinnet/Desktop/Website/Lymra-Ont/.snakemake/conda/38c0e93e27934a81e59dd4bfdd79d77a_.yaml" --prefix "/home/cinnet/Desktop/Website/Lymra-Ont/.snakemake/conda/38c0e93e27934a81e59dd4bfdd79d77a_"
+Output:
+
+EnvironmentSectionNotValid: The following section on '/home/cinnet/Desktop/Website/Lymra-Ont/.snakemake/conda/38c0e93e27934a81e59dd4bfdd79d77a_.yaml' is invalid and will be ignored:
+ - pip
+
+Encountered problems while solving:
+  - nothing provides requested bgzip
+
+

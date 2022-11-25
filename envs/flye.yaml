@@ -10,4 +10,5 @@ dependencies:
   - lemon
   - minimap2
   - samtools
+  - porechop
 

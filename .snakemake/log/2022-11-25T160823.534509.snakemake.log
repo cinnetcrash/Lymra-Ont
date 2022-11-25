@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule homopolish  in line 51 of /home/cinnet/Desktop/Website/Lymra-Ont/Snakefile:
+Missing input files for rule homopolish:
+    output: polish/sample_01_homopolish/sample_01_polished.fa
+    wildcards: sample=sample_01
+    affected files:
+        consensus/sample_01_medaka.fasta
