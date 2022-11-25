@@ -8,7 +8,7 @@ rule porechop_trim:
     input:
         "data/samples/{sample}.fastq.gz"
     output:
-        pipe("trimmed/{sample}.trimmed.fastq")
+        "trimmed/{sample}.trimmed.fastq"
     conda: 
         "envs/conda-porechop.yaml"
     shell: 
@@ -49,7 +49,7 @@ rule medaka:
         "medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 8 -m r941_min_high_g303"
 
 rule homopolish:
-    conda: "env/conda-homopolish.yaml"
+    conda: "envs/conda-homopolish.yaml"
     input:
         prev_fa = "medaka_output/{sample}_medaka.fasta",
         ref = "data/monkeypox.fa"
