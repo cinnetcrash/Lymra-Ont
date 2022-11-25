@@ -1,4 +1,2 @@
-samples:
-  - sample_01.fastq.gz
- 
+samples= "data/samples/samples.csv" 
 

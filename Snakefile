@@ -1,18 +1,49 @@
-configfile: "config.yaml"
+import os
+import shutil
+import pandas as pd
+from glob import glob
 
+
+configfile: 'config.yaml'
+os.makedirs("data/samples", exist_ok=True)
+
+samples = pd.read_csv('samples.csv', sep='\t')
+
+
+def get_samples():
+    return list(samples['sample'].unique())
+
+
+def get_fastq(wildcards):
+    fastqs = samples.query("sample=='{}'".format(wildcards.sample))[["fastq_folder"]].iloc[0]
+    ret_str = f"{fastqs.fastq_folder}"
+    return fastqs
 
 rule all:
-    "busco_output/{sample}_busco.txt"
+    input:
+        expand("data/return_files/{sample}_report.html",sample=get_samples())
+
+rule copy_fastqs_to_path:
+    input:
+        get_fastq
+    output:
+        sample="data/fastq/{sample}.fastq"
+    conda:
+        srcdir("envs/ncov.yml")
+    shell:
+        """
+        artic guppyplex --directory {input} --output {output.sample}
+        """
 
 rule porechop_trim:
     input:
-        "data/samples/{sample}.fastq.gz"
+        read_file="data/samples/{sample}.fastq.gz"
     output:
-        "trimmed/{sample}.trimmed.fastq"
+        trimmed_output="trimmed/{sample}.trimmed.fastq"
     conda: 
         "envs/conda-porechop.yaml"
     shell: 
-        "porechop -i {input} -o {output} -t 4 --barcode_threshold 60 --barcode_diff 1"
+        "porechop -i {input.read_file} -o {output.trimmed_output} -t 8 --barcode_threshold 60 --barcode_diff 1"
 
 rule kraken2_viral:
     input:
@@ -28,14 +59,35 @@ rule kraken2_viral:
 
 rule flye:
     input:
-        viral_reads="trimmed/{sample}_viral_reads.fastq",
-        output_dir="assembly/flye/"
+        "trimmed/{sample}_viral_reads.fastq"
     output:
-        "assembly/{sample}.fasta"
+        "assembly/flye_{sample}/"
     conda:
         "envs/conda-flye.yaml"
     shell:
-        "flye --nano-corr {input.viral_reads} --out-dir {output.output_dir} --genome-size 0.2m --meta -t 8"
+        "flye --nano-corr {input} --out-dir {output} --genome-size 0.2m --meta -t 8"
+
+rule minimap2_sort:
+    input:
+        fastq="data/fastq/{sample}.fastq",
+        reference=config["reference"]
+    params:
+        preset="-x map-ont", #Oxford Nanopore to reference mapping (-k15)
+        threads=config["threads"],
+        kmer="-k 21", #k-mer length
+        secondary_aligment="--secondary=yes -N 5", #Whether to output secondary alignments with most INT secondary alignments
+        sec_score = "-p 0.8" #Minimal secondary-to-primary score ratio to output secondary mappings
+    output:
+        bam="data/mapped/{sample}.sorted.bam",
+        bai="data/mapped/{sample}.sorted.bam.bai"
+    conda:
+        "envs/flye.yaml"
+    shell:
+        """
+        minimap2 -a --frag=yes -t {params.threads} {params.preset} {params.kmer} {params.secondary_aligment} \
+        {params.sec_score} {input.reference} {input.fastq} | samtools view -bS - | samtools sort -o {output.bam} - ; \n
+        samtools index {output.bam}
+        """
 
 rule medaka:
     input:
@@ -46,25 +98,27 @@ rule medaka:
     conda:
         "envs/conda-medaka.yaml"
     shell:
-        "medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 8 -m r941_min_high_g303"
+        """
+        medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 6 -m r941_min_high_g303
+        mv medaka_output_{sample}/consensus.fasta medaka_output_{sample}/{sample}.fasta
+        """
 
 rule homopolish:
     conda: "envs/conda-homopolish.yaml"
     input:
-        prev_fa="medaka_output_{sample}/consensus.fasta",
+        medaka_output_fasta="medaka_output_{sample}/{sample}.fasta",
         ref="data/monkeypox.fa"
     output: 
         fa="polish/homopolish/{sample}_polished.fasta"
     shell:
-        "homopolish polish -a {input.prev_fa} -l {input.ref} -m R9.4.pkl -o {output.fa} "
+        "homopolish polish -a {input.medaka_output_fasta} -l {input.ref} -m R9.4.pkl -o {output.fa}"
 
 rule busco:
     input:
         "polish/homopolish/{sample}_polished.fasta"
     output:
-        "busco_output/{sample}/"
+        "busco_output/{sample}_run/"
     conda:
         "envs/conda-porechop.yaml"
     shell:
         "busco -i {input} -o {output} --auto-lineage-prok -m genome"
-
