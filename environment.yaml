@@ -7,7 +7,6 @@ channels:
   - anaconda
 dependencies:
   - bioconda::flye=2.9
-  - libcucim
   - intervaltree
   - lemon
   - minimap2
@@ -19,6 +18,4 @@ dependencies:
   - pip
   - busco
   - cmake
-  - pip:
-    - bgzip
-
+ 
