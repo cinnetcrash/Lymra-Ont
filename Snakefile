@@ -42,7 +42,7 @@ rule medaka:
         fq="trimmed/{sample}_viral_reads.fastq",
         reference="data/monkeypox.fa"
     output:
-        "medaka_output_{sample}/consensus.fasta"
+        "medaka_output_{sample}/"
     conda:
         "envs/conda-medaka.yaml"
     shell:
