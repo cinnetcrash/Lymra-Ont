@@ -1,2 +1,2 @@
-samples= "data/samples/samples.csv" 
-
+samples="data/samples/samples.csv" 
+reference="data/monkeypox.fa"

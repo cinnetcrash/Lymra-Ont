@@ -31,9 +31,7 @@ rule copy_fastqs_to_path:
     conda:
         srcdir("envs/ncov.yml")
     shell:
-        """
-        artic guppyplex --directory {input} --output {output.sample}
-        """
+        "artic guppyplex --directory {input} --output {output.sample}"
 
 rule porechop_trim:
     input:
@@ -92,7 +90,7 @@ rule minimap2_sort:
 rule medaka:
     input:
         fq="trimmed/{sample}_viral_reads.fastq",
-        reference="data/monkeypox.fa"
+        reference=config["reference"]
     output:
         "medaka_output_{sample}/"
     conda:
