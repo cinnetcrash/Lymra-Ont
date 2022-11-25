@@ -1,7 +1,8 @@
+name: conda-kraken2
 channels:
   - conda-forge
   - bioconda
+  - anaconda
   - defaults
 dependencies:
-  - porechop
-  - busco
+  - kraken2

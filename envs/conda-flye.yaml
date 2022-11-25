@@ -1,3 +1,4 @@
+name: conda-flye
 channels:
   - conda-forge
   - bioconda

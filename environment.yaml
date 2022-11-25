@@ -17,10 +17,10 @@ dependencies:
   - bioconda::medaka=1.4.3
   - porechop
   - fastp
-pip:
-  - matplotlib
-  - pysam 
-  - python 
+  - pip:
+    - matplotlib
+    - pysam 
+    - python 
 
 
 

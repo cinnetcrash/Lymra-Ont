@@ -1,12 +1,8 @@
+name: conda-homopolish
 channels:
   - conda-forge
   - bioconda
   - defaults
   - anaconda
 dependencies:
-  - samtools
-  - minimap2
-  - tabix
-  - bgzip
-pip:
-  - medaka
+  - homopolish

@@ -10,7 +10,7 @@ rule porechop_trim:
     output:
         pipe("trimmed/{sample}.trimmed.fastq")
     conda: 
-        "envs/porechop.yaml"
+        "envs/conda-porechop.yaml"
     shell: 
         "porechop -i {input} -o {output} -t 4 --barcode_threshold 60 --barcode_diff 1"
 
@@ -22,7 +22,7 @@ rule kraken2_viral:
         report_kraken2="kraken2_reports/{sample}_viral.txt",
         classified_out="trimmed/{sample}_viral_reads.fastq"
     conda:
-        "envs/kraken2.yaml"
+        "envs/conda-kraken2.yaml"
     shell:
         "kraken2 --db {input.database} {input.trimmed_reads}--report {output.report_kraken2} --classified-out {output.classified_out}"
 
@@ -33,7 +33,7 @@ rule flye:
     output:
         "assembly/{sample}.fasta"
     conda:
-        "envs/flye.yaml"
+        "envs/conda-flye.yaml"
     shell:
         "flye --nano-corr {input.viral_reads} --out-dir {output.output_dir} --genome-size 0.2m --meta -t 8"
 
@@ -44,7 +44,7 @@ rule medaka:
     output:
         "medaka_output/{sample}_medaka.fasta"
     conda:
-        "envs/medaka.yaml"
+        "envs/conda-medaka.yaml"
     shell:
         "medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 8 -m r941_min_high_g303"
 
@@ -64,6 +64,6 @@ rule busco:
     output:
         "busco_output/{sample}_busco.txt"
     conda:
-        "envs/porechop.yaml"
+        "envs/conda-porechop.yaml"
     shell:
         "busco -f -c 20 -m genome -i {input} -o {output} --auto-lineage-prok"
