@@ -24,7 +24,7 @@ rule kraken2_viral:
     conda:
         "envs/conda-kraken2.yaml"
     shell:
-        "kraken2 --db {input.database} {input.trimmed_reads}--report {output.report_kraken2} --classified-out {output.classified_out}"
+        "kraken2 --db {input.database} {input.trimmed_reads} --report {output.report_kraken2} --classified-out {output.classified_out}"
 
 rule flye:
     input:
@@ -42,7 +42,7 @@ rule medaka:
         fq="trimmed/{sample}_viral_reads.fastq",
         reference="data/monkeypox.fa"
     output:
-        "medaka_output/{sample}_medaka.fasta"
+        "medaka_output_{sample}/consensus.fasta"
     conda:
         "envs/conda-medaka.yaml"
     shell:
@@ -51,19 +51,20 @@ rule medaka:
 rule homopolish:
     conda: "envs/conda-homopolish.yaml"
     input:
-        prev_fa = "medaka_output/{sample}_medaka.fasta",
-        ref = "data/monkeypox.fa"
+        prev_fa="medaka_output_{sample}/consensus.fasta",
+        ref="data/monkeypox.fa"
     output: 
-        fa = "polish/{sample}_homopolish/{sample}_polished.fa"
+        fa="polish/homopolish/{sample}_polished.fasta"
     shell:
-        "homopolish polish -a {input.prev_fa} -m R9.4.pkl -o {output.fa} -l {input.ref}"
+        "homopolish polish -a {input.prev_fa} -l {input.ref} -m R9.4.pkl -o {output.fa} "
 
 rule busco:
     input:
-        "polish/{sample}_homopolish/{sample}_polished.fa"
+        "polish/homopolish/{sample}_polished.fasta"
     output:
-        "busco_output/{sample}_busco.txt"
+        "busco_output/{sample}/"
     conda:
         "envs/conda-porechop.yaml"
     shell:
-        "busco -f -c 20 -m genome -i {input} -o {output} --auto-lineage-prok"
+        "busco -i {input} -o {output} --auto-lineage-prok -m genome"
+

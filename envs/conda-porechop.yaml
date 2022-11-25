@@ -5,7 +5,7 @@ channels:
   - defaults
 dependencies:
   - porechop
-  - busco
+  - busco =5.4.3
   - pip
   - pip:
     - bgzip
