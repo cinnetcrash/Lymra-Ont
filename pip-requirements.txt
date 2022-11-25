@@ -1,1 +1,3 @@
 bgzip
+matplotlib
+biopython
