@@ -7,5 +7,8 @@ dependencies:
   - porechop
   - busco =5.4.3
   - pip
-  - pip:
-    - bgzip
+  - qualimap
+  - java-jdk
+  - py-bgzip
+  - pip: 
+    - tabix

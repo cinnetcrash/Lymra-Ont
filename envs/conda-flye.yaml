@@ -5,6 +5,9 @@ channels:
   - defaults
   - anaconda
 dependencies:
+  - flye =2.9
+  - intervaltree
+  - lemon
   - minimap2
   - samtools
   - porechop

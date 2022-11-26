@@ -1,47 +1,17 @@
-import os
-import shutil
-import pandas as pd
-from glob import glob
-
-
-configfile: 'config.yaml'
-os.makedirs("data/samples", exist_ok=True)
-
-samples = pd.read_csv('samples.csv', sep='\t')
-
-
-def get_samples():
-    return list(samples['sample'].unique())
-
-
-def get_fastq(wildcards):
-    fastqs = samples.query("sample=='{}'".format(wildcards.sample))[["fastq_folder"]].iloc[0]
-    ret_str = f"{fastqs.fastq_folder}"
-    return fastqs
+configfile: "config.yaml"
 
 rule all:
-    input:
-        expand("data/return_files/{sample}_report.html",sample=get_samples())
-
-rule copy_fastqs_to_path:
-    input:
-        get_fastq
-    output:
-        sample="data/fastq/{sample}.fastq"
-    conda:
-        srcdir("envs/ncov.yml")
-    shell:
-        "artic guppyplex --directory {input} --output {output.sample}"
+    "busco_output/"
 
 rule porechop_trim:
     input:
-        read_file="data/samples/{sample}.fastq.gz"
+        "data/samples/{sample}.fastq.gz"
     output:
-        trimmed_output="trimmed/{sample}.trimmed.fastq"
+        "trimmed/{sample}.trimmed.fastq"
     conda: 
         "envs/conda-porechop.yaml"
     shell: 
-        "porechop -i {input.read_file} -o {output.trimmed_output} -t 8 --barcode_threshold 60 --barcode_diff 1"
+        "porechop -i {input} -o {output} -t 4 --barcode_threshold 60 --barcode_diff 1"
 
 rule kraken2_viral:
     input:
@@ -57,66 +27,117 @@ rule kraken2_viral:
 
 rule flye:
     input:
-        "trimmed/{sample}_viral_reads.fastq"
+        viral_reads="trimmed/{sample}_viral_reads.fastq",
     output:
-        "assembly/flye_{sample}/"
-    conda:
-        "envs/conda-flye.yaml"
+        "assembly/{sample}.fasta"
+    params:
+        output_dir="assembly/flye/"
+    conda: srcdir("envs/conda-flye.yaml")
     shell:
-        "flye --nano-corr {input} --out-dir {output} --genome-size 0.2m --meta -t 8"
+        "flye --nano-corr {input.viral_reads} --out-dir {params.output_dir} --genome-size 0.2m --meta -t 8"
 
 rule minimap2_sort:
     input:
-        fastq="data/fastq/{sample}.fastq",
+        fastq="data/samples/{sample}.fastq.gz",
         reference=config["reference"]
     params:
-        preset="-x map-ont", #Oxford Nanopore to reference mapping (-k15)
-        threads=config["threads"],
-        kmer="-k 21", #k-mer length
-        secondary_aligment="--secondary=yes -N 5", #Whether to output secondary alignments with most INT secondary alignments
-        sec_score = "-p 0.8" #Minimal secondary-to-primary score ratio to output secondary mappings
+        preset="-x map-ont", 
+        kmer="-k 21", 
+        secondary_aligment="--secondary=yes -N 5", 
+        sec_score = "-p 0.8" 
     output:
         bam="data/mapped/{sample}.sorted.bam",
         bai="data/mapped/{sample}.sorted.bam.bai"
-    conda:
-        "envs/flye.yaml"
+    conda: srcdir("envs/conda-flye.yaml")
     shell:
         """
-        minimap2 -a --frag=yes -t {params.threads} {params.preset} {params.kmer} {params.secondary_aligment} \
+        minimap2 -a --frag=yes -t 6 {params.preset} {params.kmer} {params.secondary_aligment} \
         {params.sec_score} {input.reference} {input.fastq} | samtools view -bS - | samtools sort -o {output.bam} - ; \n
         samtools index {output.bam}
         """
 
-rule medaka:
+rule medaka1:
     input:
-        fq="trimmed/{sample}_viral_reads.fastq",
+        bam="data/mapped/{sample}.sorted.bam",
         reference=config["reference"]
+    params:
+        model=config["medaka_model"]
+    conda: srcdir("envs/conda-medaka.yaml")
     output:
-        "medaka_output_{sample}/"
-    conda:
-        "envs/conda-medaka.yaml"
+        hdf="data/medaka/{sample}.sorted.hdf"
     shell:
-        """
-        medaka_consensus -i {input.fq} -d {input.reference} -o {output} -t 6 -m r941_min_high_g303
-        mv medaka_output_{sample}/consensus.fasta medaka_output_{sample}/{sample}.fasta
-        """
-
-rule homopolish:
-    conda: "envs/conda-homopolish.yaml"
+        "medaka consensus {input.bam} {output.hdf}"
+        
+rule medaka2:
     input:
-        medaka_output_fasta="medaka_output_{sample}/{sample}.fasta",
-        ref="data/monkeypox.fa"
-    output: 
-        fa="polish/homopolish/{sample}_polished.fasta"
+        hdf_file="data/medaka/{sample}.sorted.hdf",
+        reference=config["reference"]
+    params:
+        model=config["medaka_model"]
+    conda: srcdir("envs/conda-medaka.yaml")
+    output:
+        vcf="data/medaka/{sample}.sorted.vcf"
     shell:
-        "homopolish polish -a {input.medaka_output_fasta} -l {input.ref} -m R9.4.pkl -o {output.fa}"
+       "medaka variant {input.reference} {input.hdf_file} {output.vcf}"
+
+rule tabix_medaka:
+    input:
+        vcf="data/medaka/{sample}.sorted.vcf"
+    conda: srcdir("envs/conda-porechop.yaml")
+    output:
+        gz="data/medaka/{sample}.sorted.vcf.gz"
+    shell:
+        "gzip -f {input.vcf} | tabix -p vcf {output.gz}"
+
+rule longshot:
+    input:
+        bam="data/mapped/{sample}.sorted.bam",
+        vcf="data/medaka/{sample}.sorted.vcf",
+        reference=config["reference"]
+    params:
+        pvalue="-P 0", 
+        flags="-F -A -n "
+    conda: srcdir("envs/conda-medaka.yaml")
+    output:
+        vcf="data/longshot/{sample}.vcf"
+    shell:
+        "medaka tools annotate --pad 25 {input.vcf} {input.reference} {input.bam} {output.vcf}"
+
+rule qualimap:
+    input:
+        bam="data/mapped/{sample}.sorted.bam"
+    params:
+        java="--java-mem-size=16G"
+    conda: srcdir("envs/conda-porechop.yaml")
+    output:
+        html=directory("data/qualimap/{sample}")
+    shell:
+        "qualimap bamqc -bam {input.bam} {params.java} --outdir {output} --outformat html"
+
+rule margin_cons_medaka:
+    input:
+        vcf="data/longshot/{sample}.vcf",
+        bam="data/mapped/{sample}.sorted.bam",
+        reference=config["reference"]
+    params:
+        depth=config["coverage"],
+        qual=config["quality"]
+    conda: srcdir("envs/ncov.yml")
+    output:
+        fasta="data/genome/{sample}.consensus.fasta",
+        report="data/genome/{sample}.report.txt"
+    script:
+        "scripts/margin_cons_medaka.py"
 
 rule busco:
     input:
-        "polish/homopolish/{sample}_polished.fasta"
+        baam="data/mapped/{sample}.sorted.bam"
     output:
-        "busco_output/{sample}_run/"
+        "data"
+    params:
+        exit="busco_output/"
     conda:
         "envs/conda-porechop.yaml"
     shell:
-        "busco -i {input} -o {output} --auto-lineage-prok -m genome"
+        "busco -i {input.baam} -o {params.exit} --auto-lineage-prok -m genome"
+
