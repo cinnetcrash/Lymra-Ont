@@ -1,7 +1,8 @@
-configfile: "config.yaml"
 
+
+configfile: "config.yaml"
 rule all:
-    "busco_output/"
+    "busco_{sample}/"
 
 rule porechop_trim:
     input:
@@ -50,11 +51,8 @@ rule minimap2_sort:
         bai="data/mapped/{sample}.sorted.bam.bai"
     conda: srcdir("envs/conda-flye.yaml")
     shell:
-        """
-        minimap2 -a --frag=yes -t 6 {params.preset} {params.kmer} {params.secondary_aligment} \
-        {params.sec_score} {input.reference} {input.fastq} | samtools view -bS - | samtools sort -o {output.bam} - ; \n
-        samtools index {output.bam}
-        """
+        "minimap2 -a --frag=yes -t 6 {params.preset} {params.kmer} {params.secondary_aligment} {params.sec_score} {input.reference} {input.fastq} | samtools view -bS - | samtools sort -o {output.bam} - ; samtools index {output.bam}"
+        
 
 rule medaka1:
     input:
@@ -122,22 +120,21 @@ rule margin_cons_medaka:
     params:
         depth=config["coverage"],
         qual=config["quality"]
-    conda: srcdir("envs/ncov.yml")
+    conda: srcdir("envs/conda-busco.yaml")
     output:
         fasta="data/genome/{sample}.consensus.fasta",
         report="data/genome/{sample}.report.txt"
     script:
-        "scripts/margin_cons_medaka.py"
+        "python3 scripts/margin_cons_medaka.py {input.reference} {input.vcf} {input.bam} --depth {params.depth} --quality {params.qual}"
 
 rule busco:
     input:
-        baam="data/mapped/{sample}.sorted.bam"
+        baam="data/genome/{sample}.consensus.fasta"
     output:
-        "data"
+        "busco_{sample}"
     params:
         exit="busco_output/"
     conda:
         "envs/conda-porechop.yaml"
     shell:
         "busco -i {input.baam} -o {params.exit} --auto-lineage-prok -m genome"
-

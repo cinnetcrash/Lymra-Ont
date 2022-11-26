@@ -3,12 +3,8 @@ channels:
   - conda-forge
   - bioconda
   - defaults
+  - anaconda
+  - daler
 dependencies:
   - porechop
-  - busco =5.4.3
-  - pip
-  - qualimap
-  - java-jdk
-  - py-bgzip
-  - pip: 
-    - tabix
+ 

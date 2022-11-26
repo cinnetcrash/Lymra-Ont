@@ -2,4 +2,4 @@ samples: "sample_01.fastq.gz"
 reference: "data/monkeypox.fa"
 medaka_model: "r941_min_high_g303"
 coverage: 8
-quality: 5
+quality: 10

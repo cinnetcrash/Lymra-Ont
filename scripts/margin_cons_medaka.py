@@ -6,7 +6,7 @@ import subprocess
 from collections import defaultdict
 import os.path
 import operator
-from .vcftagprimersites import read_bed_file
+from vcftagprimersites import read_bed_file
 import argparse
 
 def collect_depths(bamfile):
@@ -41,7 +41,7 @@ def go(args):
     depths = collect_depths(args.bamfile)
     reporter = Reporter(args.vcffile, depths)
 
-    seqs = dict([(rec.id, rec) for rec in SeqIO.parse(open(args.reference), "fasta")])
+    seqs = dict([(rec.id, rec) for rec in SeqIO.parse(open(args.reference), "fa")])
     cons = {}
     for k in seqs.keys():
         cons[k] = list(seqs[k].seq)
