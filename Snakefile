@@ -1,8 +1,10 @@
 
 
 configfile: "config.yaml"
+
 rule all:
-    "busco_{sample}/"
+    input:
+        expand("busco_{sample}/", sample=config["sample"])
 
 rule porechop_trim:
     input:
@@ -33,7 +35,8 @@ rule flye:
         "assembly/{sample}.fasta"
     params:
         output_dir="assembly/flye/"
-    conda: srcdir("envs/conda-flye.yaml")
+    conda: 
+        "envs/conda-flye.yaml"
     shell:
         "flye --nano-corr {input.viral_reads} --out-dir {params.output_dir} --genome-size 0.2m --meta -t 8"
 
@@ -49,7 +52,8 @@ rule minimap2_sort:
     output:
         bam="data/mapped/{sample}.sorted.bam",
         bai="data/mapped/{sample}.sorted.bam.bai"
-    conda: srcdir("envs/conda-flye.yaml")
+    conda: 
+        "envs/conda-minimap2.yaml"
     shell:
         "minimap2 -a --frag=yes -t 6 {params.preset} {params.kmer} {params.secondary_aligment} {params.sec_score} {input.reference} {input.fastq} | samtools view -bS - | samtools sort -o {output.bam} - ; samtools index {output.bam}"
         
@@ -60,23 +64,25 @@ rule medaka1:
         reference=config["reference"]
     params:
         model=config["medaka_model"]
-    conda: srcdir("envs/conda-medaka.yaml")
+    conda: 
+        "envs/conda-medaka.yaml"
     output:
         hdf="data/medaka/{sample}.sorted.hdf"
     shell:
         "medaka consensus {input.bam} {output.hdf}"
-        
+
 rule medaka2:
     input:
         hdf_file="data/medaka/{sample}.sorted.hdf",
         reference=config["reference"]
     params:
         model=config["medaka_model"]
-    conda: srcdir("envs/conda-medaka.yaml")
+    conda: 
+        "envs/conda-medaka.yaml"
     output:
         vcf="data/medaka/{sample}.sorted.vcf"
     shell:
-       "medaka variant {input.reference} {input.hdf_file} {output.vcf}"
+        "medaka variant {input.reference} {input.hdf_file} {output.vcf}"
 
 rule tabix_medaka:
     input:
