@@ -91,7 +91,7 @@ rule tabix_medaka:
     output:
         gz="data/medaka/{sample}.sorted.vcf.gz"
     shell:
-        "gzip -f {input.vcf} | tabix -p vcf {output.gz}"
+         "bgzip -c {input.vcf} > {output.gz} && tabix -p vcf {output.gz}"
 
 rule longshot:
     input:
@@ -105,7 +105,7 @@ rule longshot:
     output:
         vcf="data/longshot/{sample}.vcf"
     shell:
-        "medaka tools annotate --pad 25 {input.vcf} {input.reference} {input.bam} {output.vcf}"
+         "longshot {params.pvalue} {params.flags} -r {input.reference} -s {input.bam} -v {input.vcf} -o {output.vcf}"
 
 rule qualimap:
     input:
@@ -135,7 +135,7 @@ rule margin_cons_medaka:
 
 rule busco:
     input:
-        baam="data/genome/{sample}.consensus.fasta"
+        fasta="data/genome/{sample}.consensus.fasta"
     output:
         "busco_{sample}"
     params:
@@ -143,4 +143,4 @@ rule busco:
     conda:
         "envs/conda-porechop.yaml"
     shell:
-        "busco -i {input.baam} -o {params.exit} --auto-lineage-prok -m genome"
+         "busco -i {input.fasta} -o {output} --auto-lineage-prok -m genome"
